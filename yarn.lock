@@ -5402,7 +5402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.css-components.roundness@npm:0.1.4":
+"@watheia/iron-ui.css-components.roundness@npm:^0.1.4":
   version: 0.1.4
   resolution: "@watheia/iron-ui.css-components.roundness@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.css-components.roundness%2F-%2Firon-ui.css-components.roundness-0.1.4.tgz"
   dependencies:
@@ -5411,6 +5411,19 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: 7705662e169c92969b634a85512b42fec2868a6c0b2c30768fec06421b9ba0500119fa51b70817d55bc21696c7ad650ddb0c074d5ef0f2522e8e180228afe7d6
+  languageName: node
+  linkType: hard
+
+"@watheia/iron-ui.geometry.curve-peek@npm:0.1.2":
+  version: 0.1.2
+  resolution: "@watheia/iron-ui.geometry.curve-peek@npm:0.1.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.geometry.curve-peek%2F-%2Firon-ui.geometry.curve-peek-0.1.2.tgz"
+  dependencies:
+    classnames: ^2.3.1
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 4f0a8c548e902fa215f66af0a8bb76963b30a85964c4f4fdede7bba8314c27ce9e704a055af9214fcb23b18e300b06cd20fffcc10252c3f85e97429913192e54
   languageName: node
   linkType: hard
 
@@ -5426,7 +5439,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.brand-definition@npm:0.1.6":
+"@watheia/iron-ui.theme.brand-definition@npm:0.1.6, @watheia/iron-ui.theme.brand-definition@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.brand-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.brand-definition%2F-%2Firon-ui.theme.brand-definition-0.1.6.tgz"
   dependencies:
@@ -5476,7 +5489,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.color-definition@npm:0.1.7":
+"@watheia/iron-ui.theme.color-definition@npm:0.1.7, @watheia/iron-ui.theme.color-definition@npm:^0.1.7":
   version: 0.1.7
   resolution: "@watheia/iron-ui.theme.color-definition@npm:0.1.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.color-definition%2F-%2Firon-ui.theme.color-definition-0.1.7.tgz"
   dependencies:
@@ -5502,7 +5515,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.colors@npm:0.1.7":
+"@watheia/iron-ui.theme.colors@npm:0.1.7, @watheia/iron-ui.theme.colors@npm:^0.1.7":
   version: 0.1.7
   resolution: "@watheia/iron-ui.theme.colors@npm:0.1.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.colors%2F-%2Firon-ui.theme.colors-0.1.7.tgz"
   dependencies:
@@ -5545,7 +5558,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.fonts.book@npm:0.1.8":
+"@watheia/iron-ui.theme.fonts.book@npm:0.1.8, @watheia/iron-ui.theme.fonts.book@npm:^0.1.8":
   version: 0.1.8
   resolution: "@watheia/iron-ui.theme.fonts.book@npm:0.1.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.fonts.book%2F-%2Firon-ui.theme.fonts.book-0.1.8.tgz"
   dependencies:
@@ -5557,7 +5570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.fonts.roboto@npm:0.1.6":
+"@watheia/iron-ui.theme.fonts.roboto@npm:0.1.6, @watheia/iron-ui.theme.fonts.roboto@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.fonts.roboto@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.fonts.roboto%2F-%2Firon-ui.theme.fonts.roboto-0.1.6.tgz"
   dependencies:
@@ -5581,7 +5594,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.heading-margin-definition@npm:0.1.6":
+"@watheia/iron-ui.theme.heading-margin-definition@npm:0.1.6, @watheia/iron-ui.theme.heading-margin-definition@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.heading-margin-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.heading-margin-definition%2F-%2Firon-ui.theme.heading-margin-definition-0.1.6.tgz"
   dependencies:
@@ -5593,7 +5606,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.icons-font@npm:0.0.4":
+"@watheia/iron-ui.theme.icons-font@npm:0.0.4, @watheia/iron-ui.theme.icons-font@npm:^0.0.4":
   version: 0.0.4
   resolution: "@watheia/iron-ui.theme.icons-font@npm:0.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.icons-font%2F-%2Firon-ui.theme.icons-font-0.0.4.tgz"
   dependencies:
@@ -5617,7 +5630,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.shadow-definition@npm:0.1.6":
+"@watheia/iron-ui.theme.shadow-definition@npm:0.1.6, @watheia/iron-ui.theme.shadow-definition@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.shadow-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.shadow-definition%2F-%2Firon-ui.theme.shadow-definition-0.1.6.tgz"
   dependencies:
@@ -5641,7 +5654,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.size-definition@npm:0.1.6":
+"@watheia/iron-ui.theme.size-definition@npm:0.1.6, @watheia/iron-ui.theme.size-definition@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.size-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.size-definition%2F-%2Firon-ui.theme.size-definition-0.1.6.tgz"
   dependencies:
@@ -5653,7 +5666,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.sizes@npm:0.1.4":
+"@watheia/iron-ui.theme.sizes@npm:^0.1.4":
   version: 0.1.4
   resolution: "@watheia/iron-ui.theme.sizes@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.sizes%2F-%2Firon-ui.theme.sizes-0.1.4.tgz"
   dependencies:
@@ -5677,7 +5690,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.spectrum@npm:0.1.6":
+"@watheia/iron-ui.theme.spectrum@npm:0.1.6, @watheia/iron-ui.theme.spectrum@npm:^0.1.6":
   version: 0.1.6
   resolution: "@watheia/iron-ui.theme.spectrum@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.spectrum%2F-%2Firon-ui.theme.spectrum-0.1.6.tgz"
   dependencies:
@@ -8513,6 +8526,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"curve-peek-700aa7@workspace:libs/iron-ui/src/geometry/curve-peek":
+  version: 0.0.0-use.local
+  resolution: "curve-peek-700aa7@workspace:libs/iron-ui/src/geometry/curve-peek"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "cyclist@npm:^1.0.1":
   version: 1.0.1
   resolution: "cyclist@npm:1.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcyclist%2F-%2Fcyclist-1.0.1.tgz"
@@ -11316,20 +11338,21 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": ~4.28.3
     "@typescript-eslint/parser": ~4.28.3
     "@watheia/iron-ui.css-components.elevation": 0.1.3
-    "@watheia/iron-ui.css-components.roundness": 0.1.4
-    "@watheia/iron-ui.theme.brand-definition": 0.1.6
+    "@watheia/iron-ui.css-components.roundness": ^0.1.4
+    "@watheia/iron-ui.geometry.curve-peek": 0.1.2
+    "@watheia/iron-ui.theme.brand-definition": ^0.1.6
     "@watheia/iron-ui.theme.brands": 0.0.2
-    "@watheia/iron-ui.theme.color-definition": 0.1.7
-    "@watheia/iron-ui.theme.colors": 0.1.7
+    "@watheia/iron-ui.theme.color-definition": ^0.1.7
+    "@watheia/iron-ui.theme.colors": ^0.1.7
     "@watheia/iron-ui.theme.evangelist-theme": 0.0.8
-    "@watheia/iron-ui.theme.fonts.book": 0.1.8
-    "@watheia/iron-ui.theme.fonts.roboto": 0.1.6
-    "@watheia/iron-ui.theme.heading-margin-definition": 0.1.6
-    "@watheia/iron-ui.theme.icons-font": 0.0.4
-    "@watheia/iron-ui.theme.shadow-definition": 0.1.6
-    "@watheia/iron-ui.theme.size-definition": 0.1.6
-    "@watheia/iron-ui.theme.sizes": 0.1.4
-    "@watheia/iron-ui.theme.spectrum": 0.1.6
+    "@watheia/iron-ui.theme.fonts.book": ^0.1.8
+    "@watheia/iron-ui.theme.fonts.roboto": ^0.1.6
+    "@watheia/iron-ui.theme.heading-margin-definition": ^0.1.6
+    "@watheia/iron-ui.theme.icons-font": ^0.0.4
+    "@watheia/iron-ui.theme.shadow-definition": ^0.1.6
+    "@watheia/iron-ui.theme.size-definition": ^0.1.6
+    "@watheia/iron-ui.theme.sizes": ^0.1.4
+    "@watheia/iron-ui.theme.spectrum": ^0.1.6
     "@watheia/iron-ui.theme.theme-provider": 0.1.7
     babel-jest: 27.0.6
     chai: ^4.2.0

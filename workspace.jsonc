@@ -1,7 +1,7 @@
 /**
  * this is the main configuration file of your bit workspace.
  * for full documentation, please see: https://harmony-docs.bit.dev/workspace/configurations
- **/ {
+ **/{
   "$schema": "https://static.bit.dev/teambit/schemas/schema.json",
   /**
    * main configuration of the Bit workspace.
@@ -37,7 +37,9 @@
      */
     "packageManager": "teambit.dependencies/yarn",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@watheia/iron-ui.geometry.curve-peek": "0.1.2"
+      },
       "peerDependencies": {
         "@popperjs/core": "^2.0.0",
         "react": "^17.0.0",
@@ -45,14 +47,20 @@
       }
     },
     "packageManagerArgs": [],
-    "devFilePatterns": ["**/*.spec.ts", "**/*.spec.tsx"],
+    "devFilePatterns": [
+      "**/*.spec.ts",
+      "**/*.spec.tsx"
+    ],
     "strictPeerDependencies": true,
     "installFromBitDevRegistry": true,
     "savePrefix": ""
   },
   "teambit.ui-foundation/ui": {
     "port": 5000,
-    "portRange": [5000, 5443],
+    "portRange": [
+      5000,
+      5443
+    ],
     "host": "microbase.dev",
     "publicDir": "public/bit"
   },
@@ -69,7 +77,9 @@
      **/
     "*": {
       "teambit.pkg/pkg": {
-        "packageManagerPublishArgs": ["--access public"],
+        "packageManagerPublishArgs": [
+          "--access public"
+        ],
         "packageJson": {
           "name": "@watheia/{scope}.{name}",
           "private": false,
