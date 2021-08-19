@@ -163,6 +163,86 @@
           }
         }
       }
+    },
+    "content": {
+      "root": "libs/content",
+      "sourceRoot": "libs/content/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:package",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/libs/content",
+            "tsConfig": "libs/content/tsconfig.lib.json",
+            "project": "libs/content/package.json",
+            "entryFile": "libs/content/src/index.ts",
+            "external": ["react/jsx-runtime"],
+            "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+            "assets": [
+              {
+                "glob": "libs/content/README.md",
+                "input": ".",
+                "output": "."
+              }
+            ]
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/content/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/content"],
+          "options": {
+            "jestConfig": "libs/content/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
+    },
+    "iron-ui": {
+      "root": "libs/iron-ui",
+      "sourceRoot": "libs/iron-ui/src",
+      "projectType": "library",
+      "targets": {
+        "build": {
+          "executor": "@nrwl/web:package",
+          "outputs": ["{options.outputPath}"],
+          "options": {
+            "outputPath": "dist/libs/iron-ui",
+            "tsConfig": "libs/iron-ui/tsconfig.lib.json",
+            "project": "libs/iron-ui/package.json",
+            "entryFile": "libs/iron-ui/src/index.ts",
+            "external": ["react/jsx-runtime"],
+            "rollupConfig": "@nrwl/react/plugins/bundle-rollup",
+            "assets": [
+              {
+                "glob": "libs/iron-ui/README.md",
+                "input": ".",
+                "output": "."
+              }
+            ]
+          }
+        },
+        "lint": {
+          "executor": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["libs/iron-ui/**/*.{ts,tsx,js,jsx}"]
+          }
+        },
+        "test": {
+          "executor": "@nrwl/jest:jest",
+          "outputs": ["coverage/libs/iron-ui"],
+          "options": {
+            "jestConfig": "libs/iron-ui/jest.config.js",
+            "passWithNoTests": true
+          }
+        }
+      }
     }
   },
   "cli": {
