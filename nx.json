@@ -1,0 +1,52 @@
+{
+  "npmScope": "hybrid-homepage",
+  "affected": {
+    "defaultBase": "master"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "MmVmODA1MTItYzI3Ny00Y2VmLWJlYzMtNWIxZjBlNzkzMGIyfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "projects": {
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    },
+    "app": {
+      "tags": []
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "app"
+      ]
+    }
+  }
+}
