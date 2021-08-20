@@ -25,9 +25,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@adobe/react-spectrum@npm:3.13.0, @adobe/react-spectrum@npm:^3.13.0":
+"@adobe/react-spectrum@npm:^3.13.0":
   version: 3.13.0
-  resolution: "@adobe/react-spectrum@npm:3.13.0"
+  resolution: "@adobe/react-spectrum@npm:3.13.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40adobe%2Freact-spectrum%2F-%2Freact-spectrum-3.13.0.tgz"
   dependencies:
     "@react-aria/i18n": ^3.3.2
     "@react-aria/ssr": ^3.0.3
@@ -1444,16 +1444,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.12.1":
-  version: 7.15.3
-  resolution: "@babel/runtime@npm:7.15.3"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: 2f0b8d2d4e36035ab1d84af0ec26aafa098536870f27c8e07de0a0e398f7a394fdea68a88165535ffb52ded6a68912bdc3450bdf91f229eb132e1c89470789f5
-  languageName: node
-  linkType: hard
-
-"@babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.8, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
+"@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.11.2, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.8, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.6.2, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.9.2":
   version: 7.15.3
   resolution: "@babel/runtime@npm:7.15.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40babel%2Fruntime%2F-%2Fruntime-7.15.3.tgz"
   dependencies:
@@ -1508,8 +1499,8 @@ __metadata:
   linkType: hard
 
 "@cypress/request@npm:^2.88.5":
-  version: 2.88.5
-  resolution: "@cypress/request@npm:2.88.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40cypress%2Frequest%2F-%2Frequest-2.88.5.tgz"
+  version: 2.88.6
+  resolution: "@cypress/request@npm:2.88.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40cypress%2Frequest%2F-%2Frequest-2.88.6.tgz"
   dependencies:
     aws-sign2: ~0.7.0
     aws4: ^1.8.0
@@ -1524,14 +1515,13 @@ __metadata:
     isstream: ~0.1.2
     json-stringify-safe: ~5.0.1
     mime-types: ~2.1.19
-    oauth-sign: ~0.9.0
     performance-now: ^2.1.0
     qs: ~6.5.2
     safe-buffer: ^5.1.2
     tough-cookie: ~2.5.0
     tunnel-agent: ^0.6.0
-    uuid: ^3.3.2
-  checksum: a605f8a623f4665402768f4d7730315a420967d41c44194eeb2a946ce0b74ce3eb8205a73b0cab879fcf65870dbb1189ac60ea67d163c7acd64228e39e65611a
+    uuid: ^8.3.2
+  checksum: 31d4586e212e20955091cdf67a0de746c2587f97f7ff0e2b8e84e772d98a73a1c6051c9090dd938ecdf595c37aec9193b6211faf754b5fcf43c7a151b4d274b7
   languageName: node
   linkType: hard
 
@@ -4547,6 +4537,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@spectrum-icons/illustrations@npm:3.2.2":
+  version: 3.2.2
+  resolution: "@spectrum-icons/illustrations@npm:3.2.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40spectrum-icons%2Fillustrations%2F-%2Fillustrations-3.2.2.tgz"
+  dependencies:
+    "@adobe/react-spectrum-ui": ^1.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1
+  checksum: e1c01772f2db37eca5d7d695a5397a8732c07cdb1ad5378dfe92c2b777618846d12b76efb2c74ce4b22728b11c72bd7bcfb710740760215d40ecd133b24939f6
+  languageName: node
+  linkType: hard
+
 "@spectrum-icons/ui@npm:^3.2.1":
   version: 3.2.1
   resolution: "@spectrum-icons/ui@npm:3.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40spectrum-icons%2Fui%2F-%2Fui-3.2.1.tgz"
@@ -4735,7 +4736,7 @@ __metadata:
 
 "@testing-library/dom@npm:^8.1.0":
   version: 8.1.0
-  resolution: "@testing-library/dom@npm:8.1.0"
+  resolution: "@testing-library/dom@npm:8.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40testing-library%2Fdom%2F-%2Fdom-8.1.0.tgz"
   dependencies:
     "@babel/code-frame": ^7.10.4
     "@babel/runtime": ^7.12.5
@@ -4944,7 +4945,7 @@ __metadata:
 
 "@types/history@npm:*":
   version: 4.7.9
-  resolution: "@types/history@npm:4.7.9"
+  resolution: "@types/history@npm:4.7.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Fhistory%2F-%2Fhistory-4.7.9.tgz"
   checksum: 556b062adb92795839301965776b0418e9ca32798bd8a6031345a6a84d7512771107143a497b7e3ff826d0b0d4456e962c6450485dda6f55c7dd33371e840529
   languageName: node
   linkType: hard
@@ -5119,7 +5120,7 @@ __metadata:
 
 "@types/react-router-dom@npm:5.1.7":
   version: 5.1.7
-  resolution: "@types/react-router-dom@npm:5.1.7"
+  resolution: "@types/react-router-dom@npm:5.1.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-router-dom%2F-%2Freact-router-dom-5.1.7.tgz"
   dependencies:
     "@types/history": "*"
     "@types/react": "*"
@@ -5130,7 +5131,7 @@ __metadata:
 
 "@types/react-router@npm:*":
   version: 5.1.16
-  resolution: "@types/react-router@npm:5.1.16"
+  resolution: "@types/react-router@npm:5.1.16::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40types%2Freact-router%2F-%2Freact-router-5.1.16.tgz"
   dependencies:
     "@types/history": "*"
     "@types/react": "*"
@@ -5402,7 +5403,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.css-components.roundness@npm:^0.1.4":
+"@watheia/iron-ui.css-components.roundness@npm:0.1.4":
   version: 0.1.4
   resolution: "@watheia/iron-ui.css-components.roundness@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.css-components.roundness%2F-%2Firon-ui.css-components.roundness-0.1.4.tgz"
   dependencies:
@@ -5427,189 +5428,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@watheia/iron-ui.theme.brand-definition@npm:0.1.6, @watheia/iron-ui.theme.brand-definition@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.brand-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.brand-definition%2F-%2Firon-ui.theme.brand-definition-0.1.6.tgz"
+"@watheia/iron-ui.theme.sizes@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@watheia/iron-ui.theme.sizes@npm:0.1.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.sizes%2F-%2Firon-ui.theme.sizes-0.1.5.tgz"
   dependencies:
     core-js: ^3.0.0
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
-  checksum: 2c9100fca4c62b255f07b0c14e521fe97952b93accca6f33f67fed17504b47c2598d1bcb648970d4cfc97f6ae28560f8cea15815dfe463719c4d51ed2e9f18a8
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.brands@npm:0.0.3":
-  version: 0.0.3
-  resolution: "@watheia/iron-ui.theme.brands@npm:0.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.brands%2F-%2Firon-ui.theme.brands-0.0.3.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 898ada2b012b9fbd08661f93d6c017646c70a9c85443c97b8db13d4cbef5fc6da417806a1802b705c3658988fe2b10f4958857c5150c0e410dba6d253aa2905f
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.color-definition@npm:0.1.7, @watheia/iron-ui.theme.color-definition@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "@watheia/iron-ui.theme.color-definition@npm:0.1.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.color-definition%2F-%2Firon-ui.theme.color-definition-0.1.7.tgz"
-  dependencies:
-    "@watheia/iron-ui.theme.colors": 0.1.7
-    "@watheia/iron-ui.theme.spectrum": 0.1.6
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: caf73380cfbc485a2a80ed5eb53a261a161e2da47c2cc3514a716d6e7f4e8a5ecb84568c8e7a3218f87b9ddfd55e04503ecf880a31d8cc0a945e6255b667cac3
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.colors@npm:0.1.7, @watheia/iron-ui.theme.colors@npm:^0.1.7":
-  version: 0.1.7
-  resolution: "@watheia/iron-ui.theme.colors@npm:0.1.7::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.colors%2F-%2Firon-ui.theme.colors-0.1.7.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: f130979a365b34bff31679e1091037c3f5226f17bdde46fcdd57cbc9f2b62e22e9c246201fa280f1f398241ed0c9e58c167e31c4c1a5748affcdde24bc38fcbf
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.evangelist-theme@npm:0.0.8":
-  version: 0.0.8
-  resolution: "@watheia/iron-ui.theme.evangelist-theme@npm:0.0.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.evangelist-theme%2F-%2Firon-ui.theme.evangelist-theme-0.0.8.tgz"
-  dependencies:
-    "@watheia/iron-ui.theme.brands": 0.0.3
-    "@watheia/iron-ui.theme.fonts.roboto": 0.1.6
-    "@watheia/iron-ui.theme.heading-margin-definition": 0.1.6
-    "@watheia/iron-ui.theme.icons-font": 0.0.4
-    "@watheia/iron-ui.theme.size-definition": 0.1.6
-    "@watheia/iron-ui.theme.theme-provider": 0.1.9
-    classnames: 2.2.6
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: e3a9bee999f03a8341f64cd371c157cd5d8752555cc78f658a85b263fc1827d10eea4b2ab7fd782f0a85306221766e30b589744335a5dc220db32990fed7f4bf
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.fonts.book@npm:0.1.8, @watheia/iron-ui.theme.fonts.book@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@watheia/iron-ui.theme.fonts.book@npm:0.1.8::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.fonts.book%2F-%2Firon-ui.theme.fonts.book-0.1.8.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 95df1c13bca0ee48134d4b1f3fa30c0f016a78bc4ad838b71217ae686fc88d9df9ab2c1e7b504a022d94cf4798f2df2a11fb91ba92800b126206f3b8eb9f6e1a
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.fonts.roboto@npm:0.1.6, @watheia/iron-ui.theme.fonts.roboto@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.fonts.roboto@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.fonts.roboto%2F-%2Firon-ui.theme.fonts.roboto-0.1.6.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 6562caee09bd475b45118b8ae413514ef48c7ef417e43a0a58fe9b8cdd09c70fb575740fcae3611838e5917b9d198338dd28e3a9966c1d3ba7f59782746548bb
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.heading-margin-definition@npm:0.1.6, @watheia/iron-ui.theme.heading-margin-definition@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.heading-margin-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.heading-margin-definition%2F-%2Firon-ui.theme.heading-margin-definition-0.1.6.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 658beb8171451b346383c852f36871790a493310ffa429a196c2a9375a6c78a251a3215535cc2dac20476754600ef0111dd1a24cc805c6b618686e684bbca2c3
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.icons-font@npm:0.0.4, @watheia/iron-ui.theme.icons-font@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "@watheia/iron-ui.theme.icons-font@npm:0.0.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.icons-font%2F-%2Firon-ui.theme.icons-font-0.0.4.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 0b6e1a1920152f34bf1aa4ce60ecf20437d262c407d67aec6e6cd03be06cc768f8a64de293ab0e8578a9f3e6b3313d3ae5a38f534c228e6aca1ab722c99147dd
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.shadow-definition@npm:0.1.6, @watheia/iron-ui.theme.shadow-definition@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.shadow-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.shadow-definition%2F-%2Firon-ui.theme.shadow-definition-0.1.6.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: d2342dddf852d621ecfa800b08a6c1f973db6687f1f75b23053c95974f24736b8ce34ea829b1d71dea8f3034dae3be7203e2fb6c466d4611e350ce2462927c08
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.size-definition@npm:0.1.6, @watheia/iron-ui.theme.size-definition@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.size-definition@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.size-definition%2F-%2Firon-ui.theme.size-definition-0.1.6.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 1a4ac0676a790bf9e8dbd57f218d80ceaf318835b5f52a3ffe594f00ff3c0511e93309906724d6c79997c1260042e1f234f33dc64c5c28f9a0dcee289e08536f
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.sizes@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "@watheia/iron-ui.theme.sizes@npm:0.1.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.sizes%2F-%2Firon-ui.theme.sizes-0.1.4.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 287917842184f1bbcc048533a410c76bfab7330c137aa89bb55f6447fd367d91016cd311d8d74d95e01c55abad66915025e9d3bde5bd1c5d95700b839215fe14
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.spectrum@npm:0.1.6, @watheia/iron-ui.theme.spectrum@npm:^0.1.6":
-  version: 0.1.6
-  resolution: "@watheia/iron-ui.theme.spectrum@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.spectrum%2F-%2Firon-ui.theme.spectrum-0.1.6.tgz"
-  dependencies:
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 59e54468fd35334b912579573b1fbeb90a00691ed0a06371203b90c5473cccae7a9320462af90a42b3182978b16296f155e81dd5634fc6da1dd509f3e5e881b1
-  languageName: node
-  linkType: hard
-
-"@watheia/iron-ui.theme.theme-provider@npm:0.1.9":
-  version: 0.1.9
-  resolution: "@watheia/iron-ui.theme.theme-provider@npm:0.1.9::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.theme-provider%2F-%2Firon-ui.theme.theme-provider-0.1.9.tgz"
-  dependencies:
-    "@adobe/react-spectrum": 3.13.0
-    "@watheia/iron-ui.theme.brand-definition": 0.1.6
-    "@watheia/iron-ui.theme.color-definition": 0.1.7
-    "@watheia/iron-ui.theme.fonts.book": 0.1.8
-    "@watheia/iron-ui.theme.heading-margin-definition": 0.1.6
-    "@watheia/iron-ui.theme.shadow-definition": 0.1.6
-    "@watheia/iron-ui.theme.size-definition": 0.1.6
-    "@watheia/iron-ui.theme.spectrum": 0.1.6
-    classnames: 2.2.6
-    core-js: ^3.0.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 9cb91b25c34adb554e769e4891eec95f85d6cce37d553c4bec443ea40df738c017f395a92a43358c7e7a1486c7e5964421615bbc7e89e06e37a9c8b3e8a0a55e
+  checksum: ea20cbf182d53de8e84a09204f0569c8b4fcec7cff945a6e6fe8541a734ec0feb5cbb701af91af97eb2b7b630e7cf2af5ea5996b6f33e70ae8bc0e13e951d92f
   languageName: node
   linkType: hard
 
@@ -6829,6 +6656,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"book-3e9fe5@workspace:libs/iron-ui/src/theme/fonts/book":
+  version: 0.0.0-use.local
+  resolution: "book-3e9fe5@workspace:libs/iron-ui/src/theme/fonts/book"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "boolbase@npm:^1.0.0, boolbase@npm:~1.0.0":
   version: 1.0.0
   resolution: "boolbase@npm:1.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fboolbase%2F-%2Fboolbase-1.0.0.tgz"
@@ -6888,6 +6724,24 @@ __metadata:
   checksum: e2a8e769a863f3d4ee887b5fe21f63193a891c68b612ddb4b68d82d1b5f3ff9073af066c343e9867a393fe4c2555dcb33e89b937195feb9c1613d259edfcd459
   languageName: node
   linkType: hard
+
+"brand-definition-bd9303@workspace:libs/iron-ui/src/theme/brand-definition":
+  version: 0.0.0-use.local
+  resolution: "brand-definition-bd9303@workspace:libs/iron-ui/src/theme/brand-definition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"brands-7afcd5@workspace:libs/iron-ui/src/theme/brands":
+  version: 0.0.0-use.local
+  resolution: "brands-7afcd5@workspace:libs/iron-ui/src/theme/brands"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "breakpoints-7a2457@workspace:libs/content/src/layout/breakpoints":
   version: 0.0.0-use.local
@@ -7492,13 +7346,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:2.2.6":
-  version: 2.2.6
-  resolution: "classnames@npm:2.2.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fclassnames%2F-%2Fclassnames-2.2.6.tgz"
-  checksum: 09a4fda780158aa8399079898eabeeca0c48c28641d9e4de140db7412e5e346843039ded1af0152f755afc2cc246ff8c3d6f227bf0dcb004e070b7fa14ec54cc
-  languageName: node
-  linkType: hard
-
 "classnames@npm:^2.2.5, classnames@npm:^2.2.6, classnames@npm:^2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fclassnames%2F-%2Fclassnames-2.3.1.tgz"
@@ -7689,6 +7536,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"color-definition-b1dbd1@workspace:libs/iron-ui/src/theme/color-definition":
+  version: 0.0.0-use.local
+  resolution: "color-definition-b1dbd1@workspace:libs/iron-ui/src/theme/color-definition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "color-name@npm:1.1.3":
   version: 1.1.3
   resolution: "color-name@npm:1.1.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcolor-name%2F-%2Fcolor-name-1.1.3.tgz"
@@ -7736,6 +7592,15 @@ __metadata:
   checksum: bda403dfba4d032bee4169f2a6436a83ae3da488a53bcb3be92dc44ace056518245cc614b12429d7529493d6b090a119b2523b0d55e8cd6b81ad939a3003c008
   languageName: node
   linkType: hard
+
+"colors-91adbb@workspace:libs/iron-ui/src/theme/colors":
+  version: 0.0.0-use.local
+  resolution: "colors-91adbb@workspace:libs/iron-ui/src/theme/colors"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "colors@npm:^1.1.2, colors@npm:^1.4.0":
   version: 1.4.0
@@ -9109,9 +8974,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.3.811":
-  version: 1.3.812
-  resolution: "electron-to-chromium@npm:1.3.812::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Felectron-to-chromium%2F-%2Felectron-to-chromium-1.3.812.tgz"
-  checksum: a879bdc67b2b3263a277a66a73eb37c6a5bdd243c6faa0932f101a409ef0c4d5f65d84ba75c76599a4611aeefd940804ae60cd8c277a6fc4338f512bbb4cd38b
+  version: 1.3.813
+  resolution: "electron-to-chromium@npm:1.3.813::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Felectron-to-chromium%2F-%2Felectron-to-chromium-1.3.813.tgz"
+  checksum: 48d613a43b75543d6f0a697ba4a3cddba456b3949d59759a3c91ea8ed4a860e3b77f6a035862b9fa10f60abb5cc4a3e769ef58bbd95951186dc9cf09bb6940c1
   languageName: node
   linkType: hard
 
@@ -9396,7 +9261,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-import-resolver-node@npm:^0.3.4, eslint-import-resolver-node@npm:^0.3.5":
+"eslint-import-resolver-node@npm:^0.3.4, eslint-import-resolver-node@npm:^0.3.6":
   version: 0.3.6
   resolution: "eslint-import-resolver-node@npm:0.3.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint-import-resolver-node%2F-%2Feslint-import-resolver-node-0.3.6.tgz"
   dependencies:
@@ -9460,27 +9325,27 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-import@npm:^2.22.1":
-  version: 2.24.0
-  resolution: "eslint-plugin-import@npm:2.24.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint-plugin-import%2F-%2Feslint-plugin-import-2.24.0.tgz"
+  version: 2.24.1
+  resolution: "eslint-plugin-import@npm:2.24.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feslint-plugin-import%2F-%2Feslint-plugin-import-2.24.1.tgz"
   dependencies:
     array-includes: ^3.1.3
     array.prototype.flat: ^1.2.4
     debug: ^2.6.9
     doctrine: ^2.1.0
-    eslint-import-resolver-node: ^0.3.5
+    eslint-import-resolver-node: ^0.3.6
     eslint-module-utils: ^2.6.2
     find-up: ^2.0.0
     has: ^1.0.3
-    is-core-module: ^2.4.0
+    is-core-module: ^2.6.0
     minimatch: ^3.0.4
-    object.values: ^1.1.3
+    object.values: ^1.1.4
     pkg-up: ^2.0.0
     read-pkg-up: ^3.0.0
     resolve: ^1.20.0
-    tsconfig-paths: ^3.9.0
+    tsconfig-paths: ^3.10.1
   peerDependencies:
     eslint: ^2 || ^3 || ^4 || ^5 || ^6 || ^7.2.0
-  checksum: 79fb1094197cd1dc720725bd29e5c5fe7d123fd9dd31eb182849993a81a8c18e2bfbc4d267a2caabe02bd4d21aafb1eca1da2f55aca7e5df99fd8ba908e7b869
+  checksum: 6a43dc2c045d8f70a370fead2ed342a4b009685bb75818c0e4dab8bb118b853a77d532c63684f5c0b808239809a5a7289c968e45b5cc56960963be5b8cf1ee54
   languageName: node
   linkType: hard
 
@@ -9747,6 +9612,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"evangelist-theme-897ff4@workspace:libs/iron-ui/src/theme/evangelist-theme":
+  version: 0.0.0-use.local
+  resolution: "evangelist-theme-897ff4@workspace:libs/iron-ui/src/theme/evangelist-theme"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "eventemitter2@npm:^6.4.3":
   version: 6.4.4
   resolution: "eventemitter2@npm:6.4.4::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Feventemitter2%2F-%2Feventemitter2-6.4.4.tgz"
@@ -9782,6 +9656,7 @@ __metadata:
   resolution: "evp_bytestokey@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fevp_bytestokey%2F-%2Fevp_bytestokey-1.0.3.tgz"
   dependencies:
     md5.js: ^1.3.4
+    node-gyp: latest
     safe-buffer: ^5.1.1
   checksum: ad4e1577f1a6b721c7800dcc7c733fe01f6c310732bb5bf2240245c2a5b45a38518b91d8be2c610611623160b9d1c0e91f1ce96d639f8b53e8894625cf20fa45
   languageName: node
@@ -10995,6 +10870,15 @@ fsevents@^1.2.7:
   languageName: unknown
   linkType: soft
 
+"heading-margin-definition-9066c9@workspace:libs/iron-ui/src/theme/heading-margin-definition":
+  version: 0.0.0-use.local
+  resolution: "heading-margin-definition-9066c9@workspace:libs/iron-ui/src/theme/heading-margin-definition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "hero-02ca8d@workspace:libs/content/src/sections/support-page/hero":
   version: 0.0.0-use.local
   resolution: "hero-02ca8d@workspace:libs/content/src/sections/support-page/hero"
@@ -11015,7 +10899,7 @@ fsevents@^1.2.7:
 
 "history@npm:^4.9.0":
   version: 4.10.1
-  resolution: "history@npm:4.10.1"
+  resolution: "history@npm:4.10.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhistory%2F-%2Fhistory-4.10.1.tgz"
   dependencies:
     "@babel/runtime": ^7.1.2
     loose-envify: ^1.2.0
@@ -11038,16 +10922,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"hoist-non-react-statics@npm:^3.1.0":
-  version: 3.3.2
-  resolution: "hoist-non-react-statics@npm:3.3.2"
-  dependencies:
-    react-is: ^16.7.0
-  checksum: b1538270429b13901ee586aa44f4cc3ecd8831c061d06cb8322e50ea17b3f5ce4d0e2e66394761e6c8e152cd8c34fb3b4b690116c6ce2bd45b18c746516cb9e8
-  languageName: node
-  linkType: hard
-
-"hoist-non-react-statics@npm:^3.3.0":
+"hoist-non-react-statics@npm:^3.1.0, hoist-non-react-statics@npm:^3.3.0":
   version: 3.3.2
   resolution: "hoist-non-react-statics@npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fhoist-non-react-statics%2F-%2Fhoist-non-react-statics-3.3.2.tgz"
   dependencies:
@@ -11307,6 +11182,7 @@ fsevents@^1.2.7:
     "@nrwl/web": 12.7.2
     "@nrwl/workspace": 12.7.2
     "@popperjs/core": ^2.0.0
+    "@spectrum-icons/illustrations": 3.2.2
     "@testing-library/dom": ^8.1.0
     "@testing-library/jest-dom": ^5.11.1
     "@testing-library/react": 11.2.6
@@ -11327,22 +11203,9 @@ fsevents@^1.2.7:
     "@typescript-eslint/eslint-plugin": ~4.28.3
     "@typescript-eslint/parser": ~4.28.3
     "@watheia/iron-ui.css-components.elevation": 0.1.3
-    "@watheia/iron-ui.css-components.roundness": ^0.1.4
+    "@watheia/iron-ui.css-components.roundness": 0.1.4
     "@watheia/iron-ui.geometry.curve-peek": 0.1.2
-    "@watheia/iron-ui.theme.brand-definition": ^0.1.6
-    "@watheia/iron-ui.theme.brands": 0.0.3
-    "@watheia/iron-ui.theme.color-definition": ^0.1.7
-    "@watheia/iron-ui.theme.colors": ^0.1.7
-    "@watheia/iron-ui.theme.evangelist-theme": 0.0.8
-    "@watheia/iron-ui.theme.fonts.book": ^0.1.8
-    "@watheia/iron-ui.theme.fonts.roboto": ^0.1.6
-    "@watheia/iron-ui.theme.heading-margin-definition": ^0.1.6
-    "@watheia/iron-ui.theme.icons-font": ^0.0.4
-    "@watheia/iron-ui.theme.shadow-definition": ^0.1.6
-    "@watheia/iron-ui.theme.size-definition": ^0.1.6
-    "@watheia/iron-ui.theme.sizes": ^0.1.4
-    "@watheia/iron-ui.theme.spectrum": ^0.1.6
-    "@watheia/iron-ui.theme.theme-provider": 0.1.9
+    "@watheia/iron-ui.theme.sizes": 0.1.5
     autoprefixer: 10.3.1
     babel-jest: 27.0.6
     chai: ^4.2.0
@@ -11388,6 +11251,15 @@ fsevents@^1.2.7:
 "icon-line-66ea0c@workspace:libs/content/src/elements/icon-line":
   version: 0.0.0-use.local
   resolution: "icon-line-66ea0c@workspace:libs/content/src/elements/icon-line"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"icons-font-49ed04@workspace:libs/iron-ui/src/theme/icons-font":
+  version: 0.0.0-use.local
+  resolution: "icons-font-49ed04@workspace:libs/iron-ui/src/theme/icons-font"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -11776,7 +11648,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"is-core-module@npm:^2.2.0, is-core-module@npm:^2.4.0":
+"is-core-module@npm:^2.2.0, is-core-module@npm:^2.6.0":
   version: 2.6.0
   resolution: "is-core-module@npm:2.6.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fis-core-module%2F-%2Fis-core-module-2.6.0.tgz"
   dependencies:
@@ -12136,7 +12008,7 @@ fsevents@^1.2.7:
 
 "isarray@npm:0.0.1":
   version: 0.0.1
-  resolution: "isarray@npm:0.0.1"
+  resolution: "isarray@npm:0.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fisarray%2F-%2Fisarray-0.0.1.tgz"
   checksum: 49191f1425681df4a18c2f0f93db3adb85573bcdd6a4482539d98eac9e705d8961317b01175627e860516a2fc45f8f9302db26e5a380a97a520e272e2a40a8d4
   languageName: node
   linkType: hard
@@ -13408,20 +13280,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.4.0":
+"loose-envify@npm:^1.0.0, loose-envify@npm:^1.1.0, loose-envify@npm:^1.2.0, loose-envify@npm:^1.3.1, loose-envify@npm:^1.4.0":
   version: 1.4.0
   resolution: "loose-envify@npm:1.4.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Floose-envify%2F-%2Floose-envify-1.4.0.tgz"
-  dependencies:
-    js-tokens: ^3.0.0 || ^4.0.0
-  bin:
-    loose-envify: cli.js
-  checksum: 6517e24e0cad87ec9888f500c5b5947032cdfe6ef65e1c1936a0c48a524b81e65542c9c3edc91c97d5bddc806ee2a985dbc79be89215d613b1de5db6d1cfe6f4
-  languageName: node
-  linkType: hard
-
-"loose-envify@npm:^1.2.0, loose-envify@npm:^1.3.1":
-  version: 1.4.0
-  resolution: "loose-envify@npm:1.4.0"
   dependencies:
     js-tokens: ^3.0.0 || ^4.0.0
   bin:
@@ -13753,7 +13614,7 @@ fsevents@^1.2.7:
 
 "mini-create-react-context@npm:^0.4.0":
   version: 0.4.1
-  resolution: "mini-create-react-context@npm:0.4.1"
+  resolution: "mini-create-react-context@npm:0.4.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fmini-create-react-context%2F-%2Fmini-create-react-context-0.4.1.tgz"
   dependencies:
     "@babel/runtime": ^7.12.1
     tiny-warning: ^1.0.3
@@ -14025,6 +13886,8 @@ fsevents@^1.2.7:
 "nan@npm:^2.12.1":
   version: 2.15.0
   resolution: "nan@npm:2.15.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fnan%2F-%2Fnan-2.15.0.tgz"
+  dependencies:
+    node-gyp: latest
   checksum: 33e1bb4dfca447fe37d4bb5889be55de154828632c8d38646db67293a21afd61ed9909cdf1b886214a64707d935926c4e60e2b09de9edfc2ad58de31d6ce8f39
   languageName: node
   linkType: hard
@@ -15080,7 +14943,7 @@ fsevents@^1.2.7:
 
 "path-to-regexp@npm:^1.7.0":
   version: 1.8.0
-  resolution: "path-to-regexp@npm:1.8.0"
+  resolution: "path-to-regexp@npm:1.8.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpath-to-regexp%2F-%2Fpath-to-regexp-1.8.0.tgz"
   dependencies:
     isarray: 0.0.1
   checksum: 709f6f083c0552514ef4780cb2e7e4cf49b0cc89a97439f2b7cc69a608982b7690fb5d1720a7473a59806508fc2dae0be751ba49f495ecf89fd8fbc62abccbcd
@@ -15860,21 +15723,9 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"pretty-format@npm:^27.0.0, pretty-format@npm:^27.0.6":
+"pretty-format@npm:^27.0.0, pretty-format@npm:^27.0.2, pretty-format@npm:^27.0.6":
   version: 27.0.6
   resolution: "pretty-format@npm:27.0.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fpretty-format%2F-%2Fpretty-format-27.0.6.tgz"
-  dependencies:
-    "@jest/types": ^27.0.6
-    ansi-regex: ^5.0.0
-    ansi-styles: ^5.0.0
-    react-is: ^17.0.1
-  checksum: 1584f7fe29da829e3cf5c9090b0a18300c4b7b81510047e1d4ba080f87e19b6ce07f191ecf2354d64c1cec4c331009bde255a272db2c8292657b6acc059e4864
-  languageName: node
-  linkType: hard
-
-"pretty-format@npm:^27.0.2":
-  version: 27.0.6
-  resolution: "pretty-format@npm:27.0.6"
   dependencies:
     "@jest/types": ^27.0.6
     ansi-regex: ^5.0.0
@@ -16236,7 +16087,7 @@ fsevents@^1.2.7:
 
 "react-dom@npm:17.0.2":
   version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
+  resolution: "react-dom@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-dom%2F-%2Freact-dom-17.0.2.tgz"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
@@ -16254,14 +16105,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.6.0":
-  version: 16.13.1
-  resolution: "react-is@npm:16.13.1"
-  checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
-  languageName: node
-  linkType: hard
-
-"react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-is%2F-%2Freact-is-16.13.1.tgz"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -16291,7 +16135,7 @@ fsevents@^1.2.7:
 
 "react-router-dom@npm:5.2.0":
   version: 5.2.0
-  resolution: "react-router-dom@npm:5.2.0"
+  resolution: "react-router-dom@npm:5.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-router-dom%2F-%2Freact-router-dom-5.2.0.tgz"
   dependencies:
     "@babel/runtime": ^7.1.2
     history: ^4.9.0
@@ -16308,7 +16152,7 @@ fsevents@^1.2.7:
 
 "react-router@npm:5.2.0":
   version: 5.2.0
-  resolution: "react-router@npm:5.2.0"
+  resolution: "react-router@npm:5.2.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact-router%2F-%2Freact-router-5.2.0.tgz"
   dependencies:
     "@babel/runtime": ^7.1.2
     history: ^4.9.0
@@ -16359,7 +16203,7 @@ fsevents@^1.2.7:
 
 "react@npm:17.0.2":
   version: 17.0.2
-  resolution: "react@npm:17.0.2"
+  resolution: "react@npm:17.0.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Freact%2F-%2Freact-17.0.2.tgz"
   dependencies:
     loose-envify: ^1.1.0
     object-assign: ^4.1.1
@@ -16733,7 +16577,7 @@ fsevents@^1.2.7:
 
 "resolve-pathname@npm:^3.0.0":
   version: 3.0.0
-  resolution: "resolve-pathname@npm:3.0.0"
+  resolution: "resolve-pathname@npm:3.0.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fresolve-pathname%2F-%2Fresolve-pathname-3.0.0.tgz"
   checksum: 6147241ba42c423dbe83cb067a2b4af4f60908c3af57e1ea567729cc71416c089737fe2a73e9e79e7a60f00f66c91e4b45ad0d37cd4be2d43fec44963ef14368
   languageName: node
   linkType: hard
@@ -16856,6 +16700,15 @@ resolve@^2.0.0-next.3:
   checksum: 006accc40578ee2beae382757c4ce2908a826b27e2b079efdcd2959ee544ddf210b7b5d7d5e80467807604244e7388427330f5c6d4cd61e6edaddc5773ccc393
   languageName: node
   linkType: hard
+
+"roboto-335c1f@workspace:libs/iron-ui/src/theme/fonts/roboto":
+  version: 0.0.0-use.local
+  resolution: "roboto-335c1f@workspace:libs/iron-ui/src/theme/fonts/roboto"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "rollup-plugin-copy@npm:^3.3.0":
   version: 3.4.0
@@ -17348,6 +17201,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"shadow-definition-0bf12b@workspace:libs/iron-ui/src/theme/shadow-definition":
+  version: 0.0.0-use.local
+  resolution: "shadow-definition-0bf12b@workspace:libs/iron-ui/src/theme/shadow-definition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "shallow-clone@npm:^3.0.0":
   version: 3.0.1
   resolution: "shallow-clone@npm:3.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fshallow-clone%2F-%2Fshallow-clone-3.0.1.tgz"
@@ -17429,6 +17291,15 @@ resolve@^2.0.0-next.3:
   checksum: aba6438f46d2bfcef94cf112c835ab395172c75f67453fe05c340c770d3c402363018ae1ab4172a1026a90c47eaccf3af7b6ff6fa749a680c2929bd7fa2b37a4
   languageName: node
   linkType: hard
+
+"size-definition-3d801a@workspace:libs/iron-ui/src/theme/size-definition":
+  version: 0.0.0-use.local
+  resolution: "size-definition-3d801a@workspace:libs/iron-ui/src/theme/size-definition"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "slack-link-0da30a@workspace:libs/content/src/marketing/community-links/slack-link":
   version: 0.0.0-use.local
@@ -17738,6 +17609,15 @@ resolve@^2.0.0-next.3:
   checksum: 2c739d0ff6f56ad36d2d754d0261d5ec358457bea7cbf77b1b05b0c6464f2ce65b85f196305f50b7bd9120723eb94bae9933466f28e67e5cd8cde4e27f1d75f8
   languageName: node
   linkType: hard
+
+"spectrum-df7407@workspace:libs/iron-ui/src/theme/spectrum":
+  version: 0.0.0-use.local
+  resolution: "spectrum-df7407@workspace:libs/iron-ui/src/theme/spectrum"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "split-string@npm:^3.0.1, split-string@npm:^3.0.2":
   version: 3.1.0
@@ -18557,6 +18437,15 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"theme-provider-235b10@workspace:libs/iron-ui/src/theme/theme-provider":
+  version: 0.0.0-use.local
+  resolution: "theme-provider-235b10@workspace:libs/iron-ui/src/theme/theme-provider"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "throat@npm:^6.0.1":
   version: 6.0.1
   resolution: "throat@npm:6.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fthroat%2F-%2Fthroat-6.0.1.tgz"
@@ -18613,19 +18502,12 @@ resolve@^2.0.0-next.3:
 
 "tiny-invariant@npm:^1.0.2":
   version: 1.1.0
-  resolution: "tiny-invariant@npm:1.1.0"
+  resolution: "tiny-invariant@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-invariant%2F-%2Ftiny-invariant-1.1.0.tgz"
   checksum: 27d29bbb9e1d1d86e25766711c28ad91af6d67c87d561167077ac7fbce5212b97bbfe875e70bc369808e075748c825864c9b61f0e9f8652275ec86bcf4dcc924
   languageName: node
   linkType: hard
 
-"tiny-warning@npm:^1.0.0, tiny-warning@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "tiny-warning@npm:1.0.3"
-  checksum: da62c4acac565902f0624b123eed6dd3509bc9a8d30c06e017104bedcf5d35810da8ff72864400ad19c5c7806fc0a8323c68baf3e326af7cb7d969f846100d71
-  languageName: node
-  linkType: hard
-
-"tiny-warning@npm:^1.0.2":
+"tiny-warning@npm:^1.0.0, tiny-warning@npm:^1.0.2, tiny-warning@npm:^1.0.3":
   version: 1.0.3
   resolution: "tiny-warning@npm:1.0.3::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftiny-warning%2F-%2Ftiny-warning-1.0.3.tgz"
   checksum: da62c4acac565902f0624b123eed6dd3509bc9a8d30c06e017104bedcf5d35810da8ff72864400ad19c5c7806fc0a8323c68baf3e326af7cb7d969f846100d71
@@ -18825,7 +18707,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"tsconfig-paths@npm:^3.9.0":
+"tsconfig-paths@npm:^3.10.1, tsconfig-paths@npm:^3.9.0":
   version: 3.10.1
   resolution: "tsconfig-paths@npm:3.10.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Ftsconfig-paths%2F-%2Ftsconfig-paths-3.10.1.tgz"
   dependencies:
@@ -19275,6 +19157,15 @@ typescript@~4.3.5:
   languageName: node
   linkType: hard
 
+"uuid@npm:^8.3.2":
+  version: 8.3.2
+  resolution: "uuid@npm:8.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fuuid%2F-%2Fuuid-8.3.2.tgz"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: 5575a8a75c13120e2f10e6ddc801b2c7ed7d8f3c8ac22c7ed0c7b2ba6383ec0abda88c905085d630e251719e0777045ae3236f04c812184b7c765f63a70e58df
+  languageName: node
+  linkType: hard
+
 "v8-compile-cache@npm:2.3.0, v8-compile-cache@npm:^2.0.3":
   version: 2.3.0
   resolution: "v8-compile-cache@npm:2.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fv8-compile-cache%2F-%2Fv8-compile-cache-2.3.0.tgz"
@@ -19314,7 +19205,7 @@ typescript@~4.3.5:
 
 "value-equal@npm:^1.0.1":
   version: 1.0.1
-  resolution: "value-equal@npm:1.0.1"
+  resolution: "value-equal@npm:1.0.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fvalue-equal%2F-%2Fvalue-equal-1.0.1.tgz"
   checksum: bb7ae1facc76b5cf8071aeb6c13d284d023fdb370478d10a5d64508e0e6e53bb459c4bbe34258df29d82e6f561f874f0105eba38de0e61fe9edd0bdce07a77a2
   languageName: node
   linkType: hard

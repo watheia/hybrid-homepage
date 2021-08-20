@@ -39,6 +39,7 @@
     "policy": {
       "dependencies": {
         "@watheia/iron-ui.geometry.curve-peek": "0.1.2",
+        "@watheia/iron-ui.theme.sizes": "0.1.5",
         "autoprefixer": "10.3.1",
         "postcss": "8.3.6",
         "tailwindcss": "2.2.7"
