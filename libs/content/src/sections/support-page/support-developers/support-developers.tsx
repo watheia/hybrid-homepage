@@ -32,7 +32,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
           Get support from the core developers who actually build the tools you work with.
         </Paragraph>
       ),
-      alt: "Bit - support tools"
+      alt: "Watheia Labs - support tools"
     },
     {
       iconUrl: "support-page/support.svg",
@@ -43,7 +43,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
           need it.
         </Paragraph>
       ),
-      alt: "Bit - support time"
+      alt: "Watheia Labs - support time"
     },
     {
       iconUrl: "support-page/eye.svg",
@@ -54,7 +54,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
           result.
         </Paragraph>
       ),
-      alt: "Bit - support platform"
+      alt: "Watheia Labs - support platform"
     },
     {
       iconUrl: "support-page/book.svg",
@@ -68,7 +68,7 @@ export function SupportDevelopers(props: SupportDevelopersProps) {
           , tutorials and guides to support every use case.
         </Paragraph>
       ),
-      alt: "Bit - support guides"
+      alt: "Watheia Labs - support guides"
     }
   ]
 

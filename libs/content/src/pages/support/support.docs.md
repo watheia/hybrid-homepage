@@ -3,7 +3,7 @@ labels: ["react", "typescript", "page"]
 description: "support page"
 ---
 
-### Overview
+## Overview
 
-A full, responsive page, detailing Bit's offering for support.  
-[Link to page](https://bit.dev/support-plans).
+A full, responsive page, detailing Watheia's offering for support.  
+[Link to page](https://watheia.app/support).

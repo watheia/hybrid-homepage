@@ -18,7 +18,7 @@ export type SupportPageProps = {
 } & HTMLAttributes<HTMLDivElement>
 
 /**
- * A full, responsive page, detailing Bit's offering for support.
+ * A full, responsive page, detailing Watheia's offering for support.
  * @name SupportPage
  */
 export function SupportPage({ table, className, ...rest }: SupportPageProps) {

@@ -21,7 +21,7 @@ import { ChannelButtonCta } from "./support-channel-cta"
 type SupportChannelsProps = {} & HTMLAttributes<HTMLElement>
 
 /**
- * Support channels section for specifying all the ways to contact Bit's support.
+ * Support channels section for specifying all the ways to contact Watheia's support.
  * @name SupportChannels
  */
 export function SupportChannels(props: SupportChannelsProps) {

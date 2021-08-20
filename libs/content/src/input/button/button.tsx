@@ -2,7 +2,7 @@ import React, { Component, ReactNode } from "react"
 import classNames from "classnames"
 
 // //@ts-ignore
-// import Spinner from '@bit/bit.base-ui.ellipsis';
+// import Spinner from '@watheia/content.ellipsis';
 
 import styles from "./button.module.scss"
 import { DotsLoader } from "@watheia/content.elements.dots-loader"

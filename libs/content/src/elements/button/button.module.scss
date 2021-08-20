@@ -1,5 +1,5 @@
 .Button {
-  border-radius: 5px;
+  border-radius: 999px;
   height: var(--primary-button-height, 46px);
   font-size: inherit;
   font-family: inherit;
@@ -17,35 +17,35 @@
   &[data-variation="normal"] {
     border: 1px solid var(--bit-bg-color, white);
     background-color: var(--bit-bg-color, white);
-    color: var(--bit-accent-color, #6c5ce7);
+    color: var(--bit-accent-color, #04bfbf);
 
     &:hover:not(:disabled) {
       border: 1px solid var(--bit-bg-heavy, white);
       background-color: var(--bit-bg-heavy, white);
-      color: var(--bit-accent-heavy, #5d4aec);
+      color: var(--bit-accent-heavy, #027373);
     }
   }
 
   &[data-variation="ghost"] {
-    border: 1px solid var(--bit-accent-color, #6c5ce7);
+    border: 1px solid var(--bit-accent-color, #04bfbf);
     background-color: var(--bit-bg-color, white);
-    color: var(--bit-accent-color, #6c5ce7);
+    color: var(--bit-accent-color, #04bfbf);
 
     &:hover:not(:disabled) {
-      border: 1px solid var(--bit-accent-heavy, #5d4aec);
+      border: 1px solid var(--bit-accent-heavy, #027373);
       background-color: var(--bit-bg-heavy, white);
-      color: var(--bit-accent-heavy, #5d4aec);
+      color: var(--bit-accent-heavy, #027373);
     }
   }
 
   &[data-variation="cta"] {
-    border: 1px solid var(--bit-accent-color, #6c5ce7);
-    background-color: var(--bit-accent-color, #6c5ce7);
+    border: 1px solid var(--bit-accent-color, #04bfbf);
+    background-color: var(--bit-accent-color, #04bfbf);
     color: var(--bit-text-on-accent, white);
 
     &:hover:not(:disabled) {
-      border: 1px solid var(--bit-accent-heavy, #5d4aec);
-      background-color: var(--bit-accent-heavy, #5d4aec);
+      border: 1px solid var(--bit-accent-heavy, #027373);
+      background-color: var(--bit-accent-heavy, #027373);
     }
   }
 }

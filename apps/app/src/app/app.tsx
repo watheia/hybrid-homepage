@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react"
 
 import { Route, Link } from "react-router-dom"
-import { IronUi } from "@hybrid-homepage/iron-ui"
 import { Message } from "@hybrid-homepage/api-interfaces"
 import { HybridHomepage, SupportPage } from "@hybrid-homepage/content"
 import { Theme } from "@hybrid-homepage/iron-ui"
@@ -22,7 +21,7 @@ export const App = () => {
         <h1>Welcome to app!</h1>
         <img
           width="450"
-          src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png"
+          src="https://cdn.watheia.org/assets/icon.svg"
           alt="Nx - Smart, Extensible Build Framework"
         />
       </div>

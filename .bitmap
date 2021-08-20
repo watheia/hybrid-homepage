@@ -17,7 +17,7 @@
     },
     "content/bit-testimonials": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "mainFile": "bit-testimonials.tsx",
         "rootDir": "libs/content/src/content/bit-testimonials"
     },
@@ -41,19 +41,19 @@
     },
     "elements/button": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.12",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/elements/button"
     },
     "elements/dots-loader": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/elements/dots-loader"
     },
     "elements/heading": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/elements/heading"
     },
@@ -77,13 +77,13 @@
     },
     "input/button": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/input/button"
     },
     "layout/align": {
         "scope": "watheia.content",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/layout/align"
     },
@@ -95,13 +95,13 @@
     },
     "layout/col-span": {
         "scope": "watheia.content",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/layout/col-span"
     },
     "layout/grid-component": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.0.7",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/layout/grid-component"
     },
@@ -119,7 +119,7 @@
     },
     "layout/page-frame": {
         "scope": "watheia.content",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/layout/page-frame"
     },
@@ -131,25 +131,25 @@
     },
     "marketing/community-links/community-link": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/marketing/community-links/community-link"
     },
     "marketing/community-links/github-link": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/marketing/community-links/github-link"
     },
     "marketing/community-links/slack-link": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/marketing/community-links/slack-link"
     },
     "marketing/community-links/twitter-link": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/marketing/community-links/twitter-link"
     },
@@ -167,127 +167,127 @@
     },
     "marketing/twitter-card": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/marketing/twitter-card"
     },
     "pages/hybrid-homepage": {
         "scope": "watheia.content",
-        "version": "0.0.12",
+        "version": "0.0.15",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/pages/hybrid-homepage"
     },
     "pages/support": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/pages/support"
     },
     "sections/build-together": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/build-together"
     },
     "sections/carousel-section": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/sections/carousel-section"
     },
     "sections/community": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/community"
     },
     "sections/component-advantages": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/component-advantages"
     },
     "sections/cta": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/cta"
     },
     "sections/develop-components": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/develop-components"
     },
     "sections/discover-components": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/sections/discover-components"
     },
     "sections/enterprise-section": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.14",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/enterprise-section"
     },
     "sections/hero": {
         "scope": "watheia.content",
-        "version": "0.0.12",
+        "version": "0.0.15",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/sections/hero"
     },
     "sections/independent-teams": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/sections/independent-teams"
     },
     "sections/reuse-components": {
         "scope": "watheia.content",
-        "version": "0.0.11",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/reuse-components"
     },
     "sections/support-page/global-enterprise": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/global-enterprise"
     },
     "sections/support-page/hero": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/hero"
     },
     "sections/support-page/support-channels": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/support-channels"
     },
     "sections/support-page/support-cta": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/support-cta"
     },
     "sections/support-page/support-developers": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/support-developers"
     },
     "sections/support-page/support-packages": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.11",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/support-packages"
     },
     "sections/talk-to-experts": {
         "scope": "watheia.content",
-        "version": "0.0.10",
+        "version": "0.0.13",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/talk-to-experts"
     },
@@ -305,19 +305,19 @@
     },
     "text/heading": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/text/heading"
     },
     "text/muted-text": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.1.0",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/text/muted-text"
     },
     "text/paragraph": {
         "scope": "watheia.content",
-        "version": "0.0.6",
+        "version": "0.1.0",
         "mainFile": "index.tsx",
         "rootDir": "libs/content/src/text/paragraph"
     },
