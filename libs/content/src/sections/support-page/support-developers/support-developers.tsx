@@ -14,7 +14,7 @@ import styles from "./support-developers.module.scss"
 import { Link } from "@watheia/content.elements.link"
 import { links } from "@watheia/content.content.links"
 
-type SupportDevelopersProps = {} & HTMLAttributes<HTMLElement>
+type SupportDevelopersProps = HTMLAttributes<HTMLElement>
 
 /**
  * Support section elaborating on the benefits of our support packages
