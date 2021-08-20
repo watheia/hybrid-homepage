@@ -2,6 +2,7 @@
   "name": "hybrid-homepage",
   "version": "0.0.0",
   "license": "MIT",
+  "homepage": "https://watheia.app/",
   "scripts": {
     "nx": "nx",
     "start": "nx serve",

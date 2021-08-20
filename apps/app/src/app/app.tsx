@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react"
 import { Route, Link } from "react-router-dom"
 import { IronUi } from "@hybrid-homepage/iron-ui"
 import { Message } from "@hybrid-homepage/api-interfaces"
-import { Content } from "@hybrid-homepage/content"
+import { HybridHomepage, SupportPage } from "@hybrid-homepage/content"
 import { Theme } from "@hybrid-homepage/iron-ui"
 import { Divider, View } from "@adobe/react-spectrum"
 
@@ -37,16 +37,13 @@ export const App = () => {
       <View data-role="navigation" backgroundColor="seafoam-700">
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <Link to="/content">Content</Link>
+            <Link to="/support">Support</Link>
           </li>
           <li>
-            <Link to="/iron-ui">IronUi</Link>
-          </li>
-          <li>
-            <Link to="/page-2">Page 2</Link>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </View>
@@ -60,8 +57,8 @@ export const App = () => {
           </div>
         )}
       />
-      <Route path="/content" component={Content} />
-      <Route path="/iron-ui" component={IronUi} />
+      <Route path="/home" component={HybridHomepage} />
+      <Route path="/support" component={SupportPage} />
       <Route
         path="/page-2"
         exact
