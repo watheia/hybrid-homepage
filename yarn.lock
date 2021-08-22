@@ -5882,6 +5882,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@watheia/iron-ui.theme.accent-color@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@watheia/iron-ui.theme.accent-color@npm:0.1.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.accent-color%2F-%2Firon-ui.theme.accent-color-0.1.5.tgz"
+  dependencies:
+    "@watheia/iron-ui.theme.colors": 0.1.6
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 9df1c0ef528005c57e807124e7ab7ede1fc26c46884ad055f8f03a0bebb87a3ea19d0fe172a9dcfc8bb829b6b13ad46457a08ef7c55acdb269bcf326de9e40c1
+  languageName: node
+  linkType: hard
+
+"@watheia/iron-ui.theme.colors@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@watheia/iron-ui.theme.colors@npm:0.1.6::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.colors%2F-%2Firon-ui.theme.colors-0.1.6.tgz"
+  dependencies:
+    core-js: ^3.0.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  checksum: 6436443f4acfec41ab8a0d3a9ba915cb04d8dad9424dd15d0f9ed8cb78fca891f3797d0c7be6400fb448b7756f36fa739dcdf699c686d794d9eca04c271bef59
+  languageName: node
+  linkType: hard
+
 "@watheia/iron-ui.theme.sizes@npm:0.1.5":
   version: 0.1.5
   resolution: "@watheia/iron-ui.theme.sizes@npm:0.1.5::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2F%40watheia%2Firon-ui.theme.sizes%2F-%2Firon-ui.theme.sizes-0.1.5.tgz"
@@ -6176,6 +6201,15 @@ __metadata:
   checksum: 0a8fd264349285aa36194b26a5a9d70c3641e78ad459ec44b9a9a5738e0ce6d86ec120ca2c0f04477165cee912fdeb158f62d6582697185c82278bdbf71187f8
   languageName: node
   linkType: hard
+
+"advantage-cards-9261a3@workspace:libs/content/src/sections/enterprise-offering/advantage-cards":
+  version: 0.0.0-use.local
+  resolution: "advantage-cards-9261a3@workspace:libs/content/src/sections/enterprise-offering/advantage-cards"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "agent-base@npm:6, agent-base@npm:^6.0.2":
   version: 6.0.2
@@ -8157,6 +8191,15 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"component-analytics-f588ce@workspace:libs/content/src/sections/enterprise-offering/component-analytics":
+  version: 0.0.0-use.local
+  resolution: "component-analytics-f588ce@workspace:libs/content/src/sections/enterprise-offering/component-analytics"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "component-emitter@npm:^1.2.1":
   version: 1.3.0
   resolution: "component-emitter@npm:1.3.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fcomponent-emitter%2F-%2Fcomponent-emitter-1.3.0.tgz"
@@ -9422,6 +9465,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eco-system-ed6fe9@workspace:libs/content/src/sections/enterprise-offering/eco-system":
+  version: 0.0.0-use.local
+  resolution: "eco-system-ed6fe9@workspace:libs/content/src/sections/enterprise-offering/eco-system"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "ecstatic@npm:^3.3.2":
   version: 3.3.2
   resolution: "ecstatic@npm:3.3.2::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fecstatic%2F-%2Fecstatic-3.3.2.tgz"
@@ -9580,9 +9632,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"enterprise-bullets-6cc130@workspace:libs/content/src/sections/enterprise-offering/enterprise-bullets":
+  version: 0.0.0-use.local
+  resolution: "enterprise-bullets-6cc130@workspace:libs/content/src/sections/enterprise-offering/enterprise-bullets"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "enterprise-logos-724bbc@workspace:libs/content/src/marketing/enterprise-logos":
   version: 0.0.0-use.local
   resolution: "enterprise-logos-724bbc@workspace:libs/content/src/marketing/enterprise-logos"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"enterprise-offering-f06dfb@workspace:libs/content/src/pages/enterprise-offering":
+  version: 0.0.0-use.local
+  resolution: "enterprise-offering-f06dfb@workspace:libs/content/src/pages/enterprise-offering"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
@@ -9629,6 +9699,15 @@ __metadata:
   checksum: 1271f7b9fbb3bcbec76ffde932485d1e3561856d21d847ec613a9722ee924cdd4e523a62dc71a44174d91e898fe21fdc8d5b50823f4b5e0ce8c35c8271e6ef4a
   languageName: node
   linkType: hard
+
+"error-c2f9f1@workspace:libs/content/src/input/error":
+  version: 0.0.0-use.local
+  resolution: "error-c2f9f1@workspace:libs/content/src/input/error"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "error-ex@npm:^1.2.0, error-ex@npm:^1.3.1":
   version: 1.3.2
@@ -10243,6 +10322,15 @@ __metadata:
   checksum: 26e63420b00620dffd3a7e98db9e815a31b2787930823a89d01fcc008b9827bd734e8104c58b91493054636fbc3b123cbaa48da5dc24b16ebe641b7ee98adeab
   languageName: node
   linkType: hard
+
+"experts-support-3770eb@workspace:libs/content/src/sections/enterprise-offering/experts-support":
+  version: 0.0.0-use.local
+  resolution: "experts-support-3770eb@workspace:libs/content/src/sections/enterprise-offering/experts-support"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "express@npm:4.17.1, express@npm:^4.17.1":
   version: 4.17.1
@@ -11383,6 +11471,15 @@ fsevents@^1.2.7:
   languageName: unknown
   linkType: soft
 
+"hero-0398bd@workspace:libs/content/src/sections/enterprise-offering/hero":
+  version: 0.0.0-use.local
+  resolution: "hero-0398bd@workspace:libs/content/src/sections/enterprise-offering/hero"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "hero-75aa3b@workspace:libs/content/src/sections/hero":
   version: 0.0.0-use.local
   resolution: "hero-75aa3b@workspace:libs/content/src/sections/hero"
@@ -11720,6 +11817,7 @@ fsevents@^1.2.7:
     "@watheia/iron-ui.css-components.elevation": 0.1.3
     "@watheia/iron-ui.css-components.roundness": 0.1.4
     "@watheia/iron-ui.geometry.curve-peek": 0.1.2
+    "@watheia/iron-ui.theme.accent-color": 0.1.5
     "@watheia/iron-ui.theme.sizes": 0.1.5
     autoprefixer: 10.3.1
     babel-jest: 27.0.6
@@ -12005,6 +12103,24 @@ fsevents@^1.2.7:
   checksum: e7aadc5fb2e4aefc666d74ee2160c073995a4061556b1b5b4241ecb19ad609243b9cceafe91bae49c219519394bbd31512516cb22a3b1ca6e66d869e0447e84e
   languageName: node
   linkType: hard
+
+"input-4ed424@workspace:libs/content/src/input/input":
+  version: 0.0.0-use.local
+  resolution: "input-4ed424@workspace:libs/content/src/input/input"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"integrations-293865@workspace:libs/content/src/sections/enterprise-offering/integrations":
+  version: 0.0.0-use.local
+  resolution: "integrations-293865@workspace:libs/content/src/sections/enterprise-offering/integrations"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "internal-ip@npm:^4.3.0":
   version: 4.3.0
@@ -16319,6 +16435,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"powering-enterprise-15fa1a@workspace:libs/content/src/sections/enterprise-offering/powering-enterprise":
+  version: 0.0.0-use.local
+  resolution: "powering-enterprise-15fa1a@workspace:libs/content/src/sections/enterprise-offering/powering-enterprise"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "prelude-ls@npm:^1.2.1":
   version: 1.2.1
   resolution: "prelude-ls@npm:1.2.1::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fprelude-ls%2F-%2Fprelude-ls-1.2.1.tgz"
@@ -17103,6 +17228,15 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"reliability-b77a76@workspace:libs/content/src/sections/enterprise-offering/reliability":
+  version: 0.0.0-use.local
+  resolution: "reliability-b77a76@workspace:libs/content/src/sections/enterprise-offering/reliability"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "remove-trailing-separator@npm:^1.0.1":
   version: 1.1.0
   resolution: "remove-trailing-separator@npm:1.1.0::__archiveUrl=https%3A%2F%2Fregistry.npmjs.org%2Fremove-trailing-separator%2F-%2Fremove-trailing-separator-1.1.0.tgz"
@@ -17564,6 +17698,15 @@ resolve@^2.0.0-next.3:
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
   languageName: node
   linkType: hard
+
+"sales-cta-d25790@workspace:libs/content/src/sections/enterprise-offering/sales-cta":
+  version: 0.0.0-use.local
+  resolution: "sales-cta-d25790@workspace:libs/content/src/sections/enterprise-offering/sales-cta"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "sass-loader@npm:8.0.2":
   version: 8.0.2
@@ -18215,6 +18358,15 @@ resolve@^2.0.0-next.3:
   checksum: b57981c05611afef31605732b598ccf65124a9fcb03b833532659ac4d29ac0f7bfacbc0d6c5a28a03e84c7510e7e556d758d0bb57786e214660016fb94279316
   languageName: node
   linkType: hard
+
+"spacing-bfee4b@workspace:libs/content/src/layout/experimental/spacing":
+  version: 0.0.0-use.local
+  resolution: "spacing-bfee4b@workspace:libs/content/src/layout/experimental/spacing"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
 
 "spdx-correct@npm:^3.0.0":
   version: 3.1.1
@@ -19095,6 +19247,15 @@ resolve@^2.0.0-next.3:
   languageName: unknown
   linkType: soft
 
+"text-separator-64c28e@workspace:libs/content/src/text/text-separator":
+  version: 0.0.0-use.local
+  resolution: "text-separator-64c28e@workspace:libs/content/src/text/text-separator"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
 "text-sizes-a61aa2@workspace:libs/content/src/text/text-sizes":
   version: 0.0.0-use.local
   resolution: "text-sizes-a61aa2@workspace:libs/content/src/text/text-sizes"
@@ -19114,6 +19275,15 @@ resolve@^2.0.0-next.3:
 "theme-provider-235b10@workspace:libs/iron-ui/src/theme/theme-provider":
   version: 0.0.0-use.local
   resolution: "theme-provider-235b10@workspace:libs/iron-ui/src/theme/theme-provider"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0
+    react-dom: ^16.8.0 || ^17.0.0
+  languageName: unknown
+  linkType: soft
+
+"themed-text-ec455a@workspace:libs/content/src/text/themed-text":
+  version: 0.0.0-use.local
+  resolution: "themed-text-ec455a@workspace:libs/content/src/text/themed-text"
   peerDependencies:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
