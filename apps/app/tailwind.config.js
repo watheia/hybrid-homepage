@@ -1,11 +1,15 @@
+const { createGlobPatternsForDependencies } = require("@nrwl/react/tailwind")
+
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
+  presets: [require("../../tailwind-workspace-preset.js")],
+  purge: createGlobPatternsForDependencies(__dirname),
+  darkMode: "media", // or 'media' or 'class'
+  mode: "jit",
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }
