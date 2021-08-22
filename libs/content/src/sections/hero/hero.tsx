@@ -71,9 +71,10 @@ export function Hero(props: ReuseLandingProps) {
               size={PossibleSizes.lg}
               className={classNames(styles.paragraph, textColumn, marginCenter)}
             >
-              Iron DevOps is the first cloud-native DevOps infrastructure for micro components, services, 
-              and serverless functions. It's everything your teams need to enjoy autonomous development, faster releases, effortless
-              consistency, and collaboration at scale. 
+              Iron DevOps is the first cloud-native DevOps infrastructure for micro
+              components, services, and serverless functions. It's everything your teams
+              need to enjoy autonomous development, faster releases, effortless consistency,
+              and collaboration at scale.
             </Paragraph>
           </div>
 
@@ -88,7 +89,7 @@ export function Hero(props: ReuseLandingProps) {
               </Button>
             </Link>
             <div className={styles.spacer} />
-            <Link href="/contact-sales">
+            <Link href="/enerpris">
               <Button elevation="medium">Learn More</Button>
             </Link>
           </Paragraph>
