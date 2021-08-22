@@ -13,7 +13,7 @@ import { Button } from "@watheia/content.elements.button"
 
 export type TalkToExpertsProps = {
   /** handles 'book meeting' call to action */
-  onRequestInvite?: () => any | Promise<any>
+  onMainCta?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -22,7 +22,7 @@ export type TalkToExpertsProps = {
  * A static section, calling users to contact us.
  * Assumes the consuming component to supply className with width and other styles.
  */
-export function TalkToExperts({ onRequestInvite, className, ...rest }: TalkToExpertsProps) {
+export function TalkToExperts({ onMainCta, className, ...rest }: TalkToExpertsProps) {
   return (
     <div
       className={classNames(
@@ -44,7 +44,7 @@ export function TalkToExperts({ onRequestInvite, className, ...rest }: TalkToExp
         </Paragraph>
       </div>
       <div>
-        <Button importance="cta" onClick={onRequestInvite}>
+        <Button importance="cta" onClick={onMainCta}>
           Free Consultation
         </Button>
       </div>

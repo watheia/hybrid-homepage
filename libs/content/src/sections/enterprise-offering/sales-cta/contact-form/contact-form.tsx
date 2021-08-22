@@ -85,7 +85,7 @@ export class ContactForm extends Component<ContactFormProps> {
               loading={formik.isSubmitting}
               disabled={formik.isSubmitting}
             >
-              Request Invite
+              Send Message
             </Button>
           </form>
         )}

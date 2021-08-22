@@ -7,7 +7,7 @@ export const HybridHomePageComposition = () => (
   <ThemeCompositions className={brands}>
     <HybridHomepage
       githubStars={12600}
-      onRequestInvite={() => alert("function to book a meeting")}
+      onMainCta={() => alert("function to book a meeting")}
     />
   </ThemeCompositions>
 )

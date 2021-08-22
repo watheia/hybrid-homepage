@@ -11,13 +11,13 @@ import { AdvantageCards } from "@watheia/content.sections.enterprise-offering.ad
 import { Reliability } from "@watheia/content.sections.enterprise-offering.reliability"
 import { EcoSystem } from "@watheia/content.sections.enterprise-offering.eco-system"
 import { Integrations } from "@watheia/content.sections.enterprise-offering.integrations"
-import { ComponentAnalytics } from "@watheia/content.sections.enterprise-offering.component-analytics"
+// import { ComponentAnalytics } from "@watheia/content.sections.enterprise-offering.component-analytics"
 import { ExpertSupport } from "@watheia/content.sections.enterprise-offering.experts-support"
 import {
   SalesCta,
   ContactValues
 } from "@watheia/content.sections.enterprise-offering.sales-cta"
-import { EnterpriseBullets } from "@watheia/content.sections.enterprise-offering.enterprise-bullets"
+// import { EnterpriseBullets } from "@watheia/content.sections.enterprise-offering.enterprise-bullets"
 import { margin } from "@watheia/content.layout.experimental.spacing"
 import { EnterpriseLogos } from "@watheia/content.marketing.enterprise-logos"
 
@@ -27,7 +27,7 @@ export type EnterpriseOfferingProps = {
   /** handles "contact us" form submission. Return a promise to show loader */
   onSubmitCta?: (values: ContactValues) => any | Promise<any>
   /** handles meeting call to action. Return a promise to show loader */
-  onRequestInvite?: () => any | Promise<any>
+  onMainCta?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -35,7 +35,7 @@ export type EnterpriseOfferingProps = {
  * @name EnterpriseOffering
  */
 export function EnterpriseOffering(props: EnterpriseOfferingProps) {
-  const { onRequestInvite, onSubmitCta, className, ...rest } = props
+  const { onMainCta, onSubmitCta, className, ...rest } = props
 
   return (
     <div
@@ -44,7 +44,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
     >
       <div className={classNames(styles.gradient00, styles.paddingTop130)}>
         <Hero
-          onRequestInvite={onRequestInvite}
+          onMainCta={onMainCta}
           className={classNames(centerColumn, styles.foldMargin)}
         />
 
@@ -55,7 +55,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
 
       <EnterpriseLogos className={styles.margin160} />
 
-      <EnterpriseBullets className={classNames(centerColumn, margin[180])} />
+      {/* <EnterpriseBullets className={classNames(centerColumn, margin[180])} /> */}
 
       <div className={styles.gradient01}>
         <AdvantageCards className={classNames(centerColumn, styles.foldMarginPlus)} />
@@ -72,7 +72,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
       <div className={classNames(styles.gradient02, styles.paddingTop30)}>
         <EcoSystem className={classNames(centerColumn, text.center)} />
         <Integrations className={classNames(margin[80])} />
-        <ComponentAnalytics className={centerColumn} />
+        {/* <ComponentAnalytics className={centerColumn} /> */}
       </div>
       <div className={classNames(styles.supportCirclesBg, styles.circlesMargin)}>
         <ExpertSupport
@@ -80,7 +80,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
         />
         <SalesCta
           onSubmitCta={onSubmitCta}
-          onRequestInvite={onRequestInvite}
+          onMainCta={onMainCta}
           className={classNames(marginCenter, centerColumn)}
         />
       </div>

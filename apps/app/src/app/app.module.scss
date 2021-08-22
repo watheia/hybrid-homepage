@@ -1,128 +1,115 @@
-.app {
-  font-family: sans-serif;
-  min-width: 300px;
-  max-width: 600px;
-  margin: 50px auto;
+@import "~@watheia/iron-ui.theme.colors/colors.module.scss";
+@import "~@watheia/content.layout.breakpoints/_breakpoints.scss";
+@import "~@watheia/content.constants.storage/_storage.module.scss";
+
+$metallicCloud: #b9cae5;
+$metallicCloudEscaped: "%23b9cae5";
+
+.enterpriseOffering {
+  h2 {
+    color: var(--bit-text-color-heavy, inherit);
+  }
 }
 
-.app :global(.gutter-left) {
-  margin-left: 9px;
+.supportCirclesBg {
+  background-image: url($staticStorageUrl + "/enterprise-offering-v1/7-support/support-circuits-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 300px;
+  padding-bottom: 130px;
 }
 
-.app :global(.col-span-2) {
-  grid-column: span 2;
+//gradients:
+.gradient00 {
+  background-image: url($staticStorageUrl + "/enterprise-offering-v1/1-hero-section/spray-bg.svg"),
+    radial-gradient(circle at 50% 88%, #000000, #232323 106%);
+  color: #eceaff;
 }
 
-.app :global(.flex) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.gradient01 {
+  background-image: linear-gradient(to bottom, rgba(256, 256, 256, 0), $metallicCloud);
 }
 
-.app :global(header) {
-  background-color: #143055;
-  color: white;
-  padding: 5px;
-  border-radius: 3px;
+.gradient02 {
+  background-image: linear-gradient(to top, rgba(256, 256, 256, 0), $metallicCloud);
 }
 
-.app :global(main) {
-  padding: 0 36px;
+//separators:
+.foldMargin {
+  margin-bottom: 50px;
+
+  @media screen and (min-width: $br-sm) {
+    margin-bottom: 80px;
+  }
+
+  @media screen and (min-width: $br-l) {
+    margin-bottom: 130px;
+  }
 }
 
-.app :global(p) {
-  text-align: center;
+.foldMarginPlus {
+  margin-bottom: 130px;
+
+  @media screen and (min-width: $br-sm) {
+    margin-bottom: 180px;
+  }
 }
 
-.app :global(h1) {
-  text-align: center;
-  margin-left: 18px;
-  font-size: 24px;
+.circlesMargin {
+  margin-top: -180px;
+
+  @media screen and (min-width: $br-sm) {
+    margin-top: -130px;
+  }
 }
 
-.app :global(h2) {
-  text-align: center;
-  font-size: 20px;
-  margin: 40px 0 10px 0;
+.curveMargin {
+  height: 80px;
+  background-size: 1921px 200px;
+
+  @media screen and (min-width: $br-l) {
+    height: 200px;
+  }
+
+  @media screen and (min-width: $br-xxl) {
+    background-size: 100% 100%;
+  }
 }
 
-.app :global(.resources) {
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-gap: 9px;
-  grid-template-columns: 1fr 1fr;
+.curve {
+  background-repeat: no-repeat;
+  background-position: center top;
+
+  &White {
+    @extend .curve;
+    $curve-color: white;
+    $svg-data-url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none' fill='" +
+      $curve-color + "'%3E%3Cpath d='M 0,100 Q 50,-100 100,100'%3E%3C/path%3E%3C/svg%3E";
+    background-image: url($svg-data-url);
+  }
+
+  &Cloud {
+    @extend .curve;
+    $curve-color: $metallicCloudEscaped;
+    $svg-data-url: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none' fill='" +
+      $curve-color + "'%3E%3Cpath d='M 0,100 Q 50,-100 100,100'%3E%3C/path%3E%3C/svg%3E";
+    background-image: url($svg-data-url);
+  }
 }
 
-.app :global(.resource) {
-  color: #0094ba;
-  height: 36px;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  padding: 3px 9px;
-  text-decoration: none;
+// sections specifics:
+.expertSupport {
+  margin-bottom: 311px;
 }
 
-.app :global(.resource:hover) {
-  background-color: rgba(68, 138, 255, 0.04);
+.paddingTop30 {
+  padding-top: 30px;
 }
 
-.app :global(pre) {
-  padding: 9px;
-  border-radius: 4px;
-  background-color: black;
-  color: #eee;
+.paddingTop130 {
+  padding-top: 130px;
 }
 
-.app :global(details) {
-  border-radius: 4px;
-  color: #333;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  padding: 3px 9px;
-  margin-bottom: 9px;
-}
-
-.app :global(summary) {
-  outline: none;
-  height: 36px;
-  line-height: 36px;
-}
-
-.app :global(.github-star-container) {
-  margin-top: 12px;
-  line-height: 20px;
-}
-
-.app :global(.github-star-container a) {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #333;
-}
-
-.app :global(.github-star-badge) {
-  color: #24292e;
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  padding: 3px 10px;
-  border: 1px solid rgba(27, 31, 35, 0.2);
-  border-radius: 3px;
-  background-image: linear-gradient(-180deg, #fafbfc, #eff3f6 90%);
-  margin-left: 4px;
-  font-weight: 600;
-}
-
-.app :global(.github-star-badge:hover) {
-  background-image: linear-gradient(-180deg, #f0f3f6, #e6ebf1 90%);
-  border-color: rgba(27, 31, 35, 0.35);
-  background-position: -0.5em;
-}
-.app :global(.github-star-badge .material-icons) {
-  height: 16px;
-  width: 16px;
-  margin-right: 4px;
+.margin160 {
+  margin-bottom: 160px;
 }

@@ -6,6 +6,7 @@ $metallicCloud: #f7f9fc;
 $metallicCloudEscaped: "%23f7f9fc";
 
 .enterpriseOffering {
+  min-height: "100-vh";
   h2 {
     color: var(--bit-text-color-heavy, inherit);
   }

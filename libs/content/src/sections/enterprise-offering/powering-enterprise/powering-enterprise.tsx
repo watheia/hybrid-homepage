@@ -35,8 +35,8 @@ export const PoweringEnterprise = (props: HTMLAttributes<HTMLDivElement>) => (
     <div className={textColumn}>
       <H2 size={PossibleSizes.sm}>Powering application delivery at scale</H2>
       <Paragraph size={PossibleSizes.xl} className={mutedText}>
-        Bit enterprise lets you build and ship modern web applications at scale. It empowers
-        global teams to build faster and better with components.
+        Watheia Labs builds and ships modern web applications at scale. We empower global
+        teams to build faster and better with components.
       </Paragraph>
     </div>
   </div>
@@ -51,7 +51,7 @@ function CrunchTheNumbers() {
       </div>
       <div className={colorPalette.process}>
         <div className={classNames(themedText, styles.emphasized)}>10x</div>
-        <MutedText>More releases</MutedText>
+        <MutedText>Customer focus</MutedText>
       </div>
       <div className={colorPalette.primary}>
         <div className={classNames(themedText, styles.emphasized)}>90%</div>

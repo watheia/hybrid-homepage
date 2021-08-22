@@ -12,7 +12,7 @@ it("should render correctly", () => {
 })
 it("should render h2 element", () => {
   const { getByText } = render(<HeroExample />)
-  const rendered = getByText("The enterprise component platform")
+  const rendered = getByText("We build micro frontends!")
 
   expect(rendered.tagName).to.be.equal("H1")
 })

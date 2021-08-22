@@ -12,10 +12,11 @@ import { H1 } from "@watheia/content.elements.heading"
 import { BaseImage as Image } from "@watheia/content.elements.base-image"
 
 import styles from "./hero.module.scss"
+import { Link } from "@watheia/content.elements.link"
 
 type HeroProps = {
   /** handles 'book meeting' call to action */
-  onRequestInvite?: () => any | Promise<any>
+  onMainCta?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -23,7 +24,7 @@ type HeroProps = {
  * @name EcoSystem
  */
 export function Hero(props: HeroProps) {
-  const { onRequestInvite, ...rest } = props
+  const { onMainCta, ...rest } = props
 
   return (
     <Grid
@@ -34,7 +35,7 @@ export function Hero(props: HeroProps) {
     >
       <div className={classNames(styles.content)}>
         <H1 size={PossibleSizes.sm} className={themedText}>
-          The enterprise component platform
+          We build micro frontends!
         </H1>
         <Paragraph size={PossibleSizes.lg} className={styles.paragraph}>
           Let your components drive web application delivery at global scale. Enjoy
@@ -42,11 +43,15 @@ export function Hero(props: HeroProps) {
         </Paragraph>
 
         <div className={styles.buttons}>
-          <a href="/contact-sales?redirectUri=%2Fenterprise">
-            <Button importance="cta">Get Support</Button>
-          </a>
+          <Link href="#contact">
+            <Button onClick={props.onMainCta} importance="cta">
+              Get Support
+            </Button>
+          </Link>
           <div className={styles.spacer} />
-          <Button onClick={props.onRequestInvite}>Seee Demo</Button>
+          <Link href="#about">
+            <Button>Learn More</Button>
+          </Link>
         </div>
       </div>
       <Image

@@ -1,4 +1,4 @@
-import React, { HTMLAttributes, ReactNode } from "react"
+import React, { HTMLAttributes, ReactNode, MouseEvent } from "react"
 import classNames from "classnames"
 import Typewriter from "typewriter-effect"
 
@@ -38,6 +38,8 @@ type ReuseLandingProps = {
    * Placeholder for content, at the bottom of this section
    */
   mainCta?: ReactNode
+  /** handles 'book meeting' call to action */
+  onMainCta?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -47,7 +49,10 @@ type ReuseLandingProps = {
  * Assumes a dark purplish background behind it.
  */
 
-export function Hero(props: ReuseLandingProps) {
+export function Hero({ onMainCta, ...props }: ReuseLandingProps) {
+  const handleCta = (_event: MouseEvent<HTMLButtonElement>) => {
+    if (typeof onMainCta === "function") onMainCta()
+  }
   return (
     <div data-bit-id="watheia.content/sections/hero" {...props}>
       <Grid colL={2} className={classNames(styles.mainGrid, text.center, text.l.left)}>
@@ -83,13 +88,12 @@ export function Hero(props: ReuseLandingProps) {
             element="div"
             className={classNames(styles.buttons)}
           >
-            <Link href="/signup">
-              <Button importance="cta" elevation="medium">
-                Request Invite
-              </Button>
-            </Link>
+            <Button importance="cta" elevation="medium" onClick={handleCta}>
+              Request Invite
+            </Button>
+
             <div className={styles.spacer} />
-            <Link href="/enerpris">
+            <Link href="/home">
               <Button elevation="medium">Learn More</Button>
             </Link>
           </Paragraph>

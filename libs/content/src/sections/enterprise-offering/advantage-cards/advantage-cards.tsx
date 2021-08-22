@@ -100,11 +100,9 @@ function Cards() {
             <Icon of="billing-checkmark" className={themedText} /> 99.9% Uptime SLA
           </li>
         </ul>
-        <Link
-          href={`/contact-sales?redirectUri=${redirects.security}&subject=${subjects.security}`}
-        >
+        <Link href="/#contact">
           <Button importance="cta" className={fullWidth}>
-            Request Invite
+            Contact Sales
           </Button>
         </Link>
       </Card>
@@ -138,11 +136,9 @@ function Cards() {
             phone, chat and email
           </li>
         </ul>
-        <Link
-          href={`/contact-sales?redirectUri=${redirects.support}&subject=${subjects.support}`}
-        >
+        <Link href="/#contact">
           <Button importance="cta" className={fullWidth}>
-            Request Invite
+            Contact Sales
           </Button>
         </Link>
       </Card>
@@ -177,11 +173,9 @@ function Cards() {
             integrations
           </li>
         </ul>
-        <Link
-          href={`/contact-sales?redirectUri=${redirects.build}&subject=${subjects.build}`}
-        >
+        <Link href="/#contact">
           <Button importance="cta" className={fullWidth}>
-            Request Invite
+            Contact Sales
           </Button>
         </Link>
       </Card>
@@ -214,11 +208,9 @@ function Cards() {
             leadership
           </li>
         </ul>
-        <Link
-          href={`/contact-sales?redirectUri=${redirects.experts}&subject=${subjects.experts}`}
-        >
+        <Link href="/#contact">
           <Button importance="cta" className={fullWidth}>
-            Request Invite
+            Contact Sales
           </Button>
         </Link>
       </Card>

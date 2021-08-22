@@ -20,7 +20,7 @@ export type EnterpriseCtaProps = {
   /** handles form submission, with user input as a single object parameter. Return a promise to show loader */
   onSubmitCta?: (values: ContactValues) => any | Promise<any>
   /** handles 'book a meeting' call to action. Return a promise to show loader */
-  onRequestInvite?: () => any | Promise<any>
+  onMainCta?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -29,7 +29,7 @@ export type EnterpriseCtaProps = {
  * @param SalesCta
  */
 export const SalesCta = (props: EnterpriseCtaProps) => {
-  const { onSubmitCta, onRequestInvite, className, ...rest } = props
+  const { onSubmitCta, onMainCta, className, ...rest } = props
   return (
     <div
       {...rest}
@@ -43,18 +43,6 @@ export const SalesCta = (props: EnterpriseCtaProps) => {
         </Paragraph>
 
         <ContactForm onSubmitMessage={onSubmitCta} />
-
-        <TextSeparator className={classNames(mutedText, styles.margin, styles.separator)}>
-          OR
-        </TextSeparator>
-
-        <Button
-          importance="normal"
-          onClick={onRequestInvite}
-          className={classNames(fullWidth, styles.muted)}
-        >
-          Book Intro
-        </Button>
       </Card>
 
       <div className={styles.particlesContainer}>
