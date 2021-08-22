@@ -5,11 +5,13 @@ import { HybridHomepage, SupportPage } from "@hybrid-homepage/content"
 import classes from "./app.module.scss"
 import { Box, Container, Typography, Link } from "@material-ui/core"
 
+const baseUrl = "https://watheia.app"
+
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
       {"Copyright © "}
-      <Link color="inherit" href="https://watheia.app/">
+      <Link color="inherit" href={`${baseUrl}/`}>
         Watheia Labs, LLC.
       </Link>{" "}
       {new Date().getFullYear()}
@@ -18,11 +20,27 @@ function Copyright() {
   )
 }
 
+const Footer = () => (
+  <Box
+    component="footer"
+    sx={{
+      py: 3,
+      px: 2,
+      mt: "auto",
+      backgroundColor: (theme) => (theme.palette.mode === "light" ? "#eef2f9" : "#273c5e")
+    }}
+  >
+    <Container maxWidth="sm">
+      <Copyright />
+    </Container>
+  </Box>
+)
+
 export const App = () => {
   const [m, setMessage] = useState<Message>({ message: "" })
 
   useEffect(() => {
-    fetch("/api")
+    fetch(`${baseUrl}/api/greeting`)
       .then((r) => r.json())
       .then(setMessage)
   }, [])
@@ -36,22 +54,7 @@ export const App = () => {
       }}
     >
       <HybridHomepage />
-      <Box
-        component="footer"
-        sx={{
-          py: 3,
-          px: 2,
-          mt: "auto",
-          backgroundColor: (theme) =>
-            theme.palette.mode === "light"
-              ? theme.palette.grey[200]
-              : theme.palette.grey[800]
-        }}
-      >
-        <Container maxWidth="sm">
-          <Copyright />
-        </Container>
-      </Box>
+      <Footer />
     </Box>
   )
 }
