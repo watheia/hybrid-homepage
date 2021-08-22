@@ -28,7 +28,7 @@ export type HybridHomepageProps = {
   /** show github star count at the community section */
   githubStars?: number
   /** handles 'book meeting' call to action */
-  onBookMeeting?: () => any | Promise<any>
+  onRequestInvite?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -44,7 +44,7 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
       communityCollections = null,
       mainCta,
       githubStars,
-      onBookMeeting,
+      onRequestInvite,
       className,
       ...rest
     } = this.props
@@ -89,7 +89,7 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
 
         <TalkToExperts
           className={classNames(centerColumn, styles.foldMargin)}
-          onBookMeeting={onBookMeeting}
+          onRequestInvite={onRequestInvite}
         />
 
         <div
@@ -114,10 +114,10 @@ export class HybridHomepage extends PureComponent<HybridHomepageProps> {
           <IndependentTeams className={classNames(centerColumn)} />
         </div>
 
-        <CommunitySection
+        {/* <CommunitySection
           className={classNames(centerColumn, styles.foldMargin)}
           githubStars={githubStars}
-        />
+        /> */}
 
         <CtaSection className={classNames(centerColumn, styles.foldMargin)} />
       </div>

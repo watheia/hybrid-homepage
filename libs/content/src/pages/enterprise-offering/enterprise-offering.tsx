@@ -27,7 +27,7 @@ export type EnterpriseOfferingProps = {
   /** handles "contact us" form submission. Return a promise to show loader */
   onSubmitCta?: (values: ContactValues) => any | Promise<any>
   /** handles meeting call to action. Return a promise to show loader */
-  onBookMeeting?: () => any | Promise<any>
+  onRequestInvite?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -35,7 +35,7 @@ export type EnterpriseOfferingProps = {
  * @name EnterpriseOffering
  */
 export function EnterpriseOffering(props: EnterpriseOfferingProps) {
-  const { onBookMeeting, onSubmitCta, className, ...rest } = props
+  const { onRequestInvite, onSubmitCta, className, ...rest } = props
 
   return (
     <div
@@ -44,7 +44,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
     >
       <div className={classNames(styles.gradient00, styles.paddingTop130)}>
         <Hero
-          onBookMeeting={onBookMeeting}
+          onRequestInvite={onRequestInvite}
           className={classNames(centerColumn, styles.foldMargin)}
         />
 
@@ -80,7 +80,7 @@ export function EnterpriseOffering(props: EnterpriseOfferingProps) {
         />
         <SalesCta
           onSubmitCta={onSubmitCta}
-          onBookMeeting={onBookMeeting}
+          onRequestInvite={onRequestInvite}
           className={classNames(marginCenter, centerColumn)}
         />
       </div>

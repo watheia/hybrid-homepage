@@ -104,7 +104,7 @@ function Cards() {
           href={`/contact-sales?redirectUri=${redirects.security}&subject=${subjects.security}`}
         >
           <Button importance="cta" className={fullWidth}>
-            Contact Sales
+            Request Invite
           </Button>
         </Link>
       </Card>
@@ -142,7 +142,7 @@ function Cards() {
           href={`/contact-sales?redirectUri=${redirects.support}&subject=${subjects.support}`}
         >
           <Button importance="cta" className={fullWidth}>
-            Contact Sales
+            Request Invite
           </Button>
         </Link>
       </Card>
@@ -181,7 +181,7 @@ function Cards() {
           href={`/contact-sales?redirectUri=${redirects.build}&subject=${subjects.build}`}
         >
           <Button importance="cta" className={fullWidth}>
-            Contact Sales
+            Request Invite
           </Button>
         </Link>
       </Card>
@@ -218,7 +218,7 @@ function Cards() {
           href={`/contact-sales?redirectUri=${redirects.experts}&subject=${subjects.experts}`}
         >
           <Button importance="cta" className={fullWidth}>
-            Contact Sales
+            Request Invite
           </Button>
         </Link>
       </Card>

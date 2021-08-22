@@ -191,19 +191,19 @@
     },
     "pages/enterprise-offering": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/pages/enterprise-offering"
     },
     "pages/hybrid-homepage": {
         "scope": "watheia.content",
-        "version": "0.0.19",
+        "version": "0.0.20",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/pages/hybrid-homepage"
     },
     "pages/support": {
         "scope": "watheia.content",
-        "version": "0.0.17",
+        "version": "0.0.18",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/pages/support"
     },
@@ -233,7 +233,7 @@
     },
     "sections/cta": {
         "scope": "watheia.content",
-        "version": "0.0.17",
+        "version": "0.0.18",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/cta"
     },
@@ -251,7 +251,7 @@
     },
     "sections/enterprise-offering/advantage-cards": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/enterprise-offering/advantage-cards"
     },
@@ -281,7 +281,7 @@
     },
     "sections/enterprise-offering/hero": {
         "scope": "watheia.content",
-        "version": "0.0.9",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/enterprise-offering/hero"
     },
@@ -305,13 +305,13 @@
     },
     "sections/enterprise-offering/sales-cta": {
         "scope": "watheia.content",
-        "version": "0.0.8",
+        "version": "0.0.9",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/enterprise-offering/sales-cta"
     },
     "sections/enterprise-section": {
         "scope": "watheia.content",
-        "version": "0.0.17",
+        "version": "0.0.18",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/enterprise-section"
     },
@@ -335,13 +335,13 @@
     },
     "sections/support-page/global-enterprise": {
         "scope": "watheia.content",
-        "version": "0.0.16",
+        "version": "0.0.17",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/global-enterprise"
     },
     "sections/support-page/hero": {
         "scope": "watheia.content",
-        "version": "0.0.16",
+        "version": "0.0.17",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/support-page/hero"
     },
@@ -371,7 +371,7 @@
     },
     "sections/talk-to-experts": {
         "scope": "watheia.content",
-        "version": "0.0.16",
+        "version": "0.0.17",
         "mainFile": "index.ts",
         "rootDir": "libs/content/src/sections/talk-to-experts"
     },

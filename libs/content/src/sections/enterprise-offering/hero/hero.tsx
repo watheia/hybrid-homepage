@@ -15,7 +15,7 @@ import styles from "./hero.module.scss"
 
 type HeroProps = {
   /** handles 'book meeting' call to action */
-  onBookMeeting?: () => any | Promise<any>
+  onRequestInvite?: () => any | Promise<any>
 } & HTMLAttributes<HTMLDivElement>
 
 /**
@@ -23,7 +23,7 @@ type HeroProps = {
  * @name EcoSystem
  */
 export function Hero(props: HeroProps) {
-  const { onBookMeeting, ...rest } = props
+  const { onRequestInvite, ...rest } = props
 
   return (
     <Grid
@@ -46,7 +46,7 @@ export function Hero(props: HeroProps) {
             <Button importance="cta">Get Support</Button>
           </a>
           <div className={styles.spacer} />
-          <Button onClick={props.onBookMeeting}>Seee Demo</Button>
+          <Button onClick={props.onRequestInvite}>Seee Demo</Button>
         </div>
       </div>
       <Image

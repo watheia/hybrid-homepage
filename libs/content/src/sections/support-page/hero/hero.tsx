@@ -49,7 +49,7 @@ export function Hero(props: HeroProps) {
           <div className={styles.spacer} />
           <Link className={styles.link} href="/contact-sales?redirectUri=%2Fsupport-plans">
             <Button className={styles.button} elevation="medium">
-              Contact sales
+              Request invite
             </Button>
           </Link>
         </div>

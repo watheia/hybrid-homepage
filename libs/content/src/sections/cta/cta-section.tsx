@@ -1,17 +1,17 @@
-import React from 'react';
-import classNames from 'classnames';
+import React from "react"
+import classNames from "classnames"
 
-import styles from './cta-section.module.scss';
+import styles from "./cta-section.module.scss"
 
-import { H2 } from '@watheia/content.elements.heading';
-import { PossibleSizes } from '@watheia/iron-ui.theme.sizes';
-import { Paragraph } from '@watheia/content.text.paragraph';
-import { Grid } from '@watheia/content.layout.grid-component';
-import { justifyItems, alignItems, text } from '@watheia/content.layout.align';
-import { Link } from '@watheia/content.elements.link';
-import { Button } from '@watheia/content.elements.button';
+import { H2 } from "@watheia/content.elements.heading"
+import { PossibleSizes } from "@watheia/iron-ui.theme.sizes"
+import { Paragraph } from "@watheia/content.text.paragraph"
+import { Grid } from "@watheia/content.layout.grid-component"
+import { justifyItems, alignItems, text } from "@watheia/content.layout.align"
+import { Link } from "@watheia/content.elements.link"
+import { Button } from "@watheia/content.elements.button"
 
-type CtaProps = React.HTMLAttributes<HTMLDivElement>;
+type CtaProps = React.HTMLAttributes<HTMLDivElement>
 
 /**
  * @name CtaSection
@@ -21,7 +21,7 @@ type CtaProps = React.HTMLAttributes<HTMLDivElement>;
  */
 
 export function CtaSection(props: CtaProps) {
-  const { ...rest } = props;
+  const { ...rest } = props
 
   return (
     <Grid
@@ -38,14 +38,14 @@ export function CtaSection(props: CtaProps) {
       data-bit-id="watheia.content/sections/cta"
     >
       <div>
-        <H2 size={PossibleSizes.xs}>Ready to try Watheia?</H2>
+        <H2 size={PossibleSizes.xs}>Ready to go micro?</H2>
         <Paragraph size={PossibleSizes.lg}>
           Empower your team to build faster together.
         </Paragraph>
       </div>
       <Link href="/signup">
-        <Button importance="cta">Start for free</Button>
+        <Button importance="cta">Request invite</Button>
       </Link>
     </Grid>
-  );
+  )
 }
