@@ -36,6 +36,7 @@
     "@material-ui/core": "next",
     "@material-ui/icons": "next",
     "@material-ui/styles": "next",
+    "@vercel/node": "^1.12.1",
     "@watheia/iron-ui.geometry.curve-peek": "0.1.2",
     "@watheia/iron-ui.theme.sizes": "0.1.5",
     "classnames": "^2.2.6",
